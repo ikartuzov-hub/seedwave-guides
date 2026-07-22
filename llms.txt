@@ -3,7 +3,7 @@
 > Guias claros e verificados sobre subsídios/apoios públicos e digitalização para cafés e restaurantes na Madeira, Portugal. Autor: Igor Kartuzov (SeedWave). Cada número é verificado com o texto do aviso e remete para a fonte primária.
 
 ## Guias
-- [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://ikartuzov-hub.github.io/seedwave-guides/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN.
+- [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://apoios.seedwave.dev/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN.
 
 ## Entidade
 - Igor Kartuzov — SeedWave — subsídios e automação para HoReCa em Portugal (Madeira).
