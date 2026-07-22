@@ -5,6 +5,8 @@
 ## Guias
 - [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://apoios.seedwave.dev/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN.
 
+- [SIEED — Eficiência Energética 2030 na Madeira (prazo 10.09.2026)](https://apoios.seedwave.dev/sieed-madeira/): o que cobre o SIEED (M2030-2026-21) para cafés/restaurantes, 50% para PME, e como candidatar antes do prazo. PT.
+
 ## Entidade
 - Igor Kartuzov — SeedWave — subsídios e automação para HoReCa em Portugal (Madeira).
 
