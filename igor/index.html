@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Igor Kartuzov — apoios, subsídios e automação para restauração na Madeira | SeedWave</title>
+<meta name="description" content="Igor Kartuzov (SeedWave): ajudo cafés e restaurantes na Madeira a captar apoios e subsídios públicos (SIEED, Portugal 2030) e a automatizar. 35 anos de operador. Madeira, Portugal.">
+<link rel="canonical" href="https://apoios.seedwave.dev/igor/">
+
+<!-- favicon-тайл (закон серии: S на фирменном фоне, светлая тема канон) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='23' fill='%23E6F3F6'/%3E%3Cg fill='none' stroke='%230E8FA8' stroke-width='7' stroke-linecap='round'%3E%3Cpath d='M67 31 C67 20 45 18 38 27 C31 36 42 44 51 47 C62 51 69 55 66 65 C63 76 42 78 34 69'/%3E%3Cpath d='M20 86 Q30 80 40 86 Q50 92 60 86 Q70 80 80 86'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Igor Kartuzov">
+<meta name="theme-color" content="#0c1417">
+
+<!-- OG (превью ссылки). og-igor.png — заготовка, сгенерировать при деплое -->
+<meta property="og:title" content="Igor Kartuzov — apoios e automação para restauração na Madeira">
+<meta property="og:description" content="Ajudo cafés e restaurantes na Madeira a captar apoios públicos (SIEED, Portugal 2030) e a automatizar. 35 anos de operador · SeedWave.">
+<meta property="og:image" content="https://apoios.seedwave.dev/og-igor.png">
+<meta property="og:url" content="https://apoios.seedwave.dev/igor/">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="pt_PT">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="de_DE">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Schema: ProfilePage + Person (извлекаемость по имени) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "dateModified": "2026-07-23",
+      "mainEntity": {"@id": "https://apoios.seedwave.dev/igor/#igor"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://apoios.seedwave.dev/igor/#igor",
+      "name": "Igor Kartuzov",
+      "alternateName": "Игорь Картузов",
+      "url": "https://apoios.seedwave.dev/igor/",
+      "jobTitle": "Consultor de apoios e automação para restauração (HoReCa)",
+      "description": "Ajuda cafés e restaurantes na Madeira a captar apoios e subsídios públicos e a automatizar operações. 35 anos de experiência de operador.",
+      "worksFor": {"@type": "Organization", "name": "SeedWave", "url": "https://seedwave.pt/"},
+      "areaServed": {"@type": "Place", "name": "Madeira, Portugal"},
+      "knowsAbout": ["subsídios restauração Madeira", "apoios Portugal 2030", "SIEED", "digitalização HoReCa", "automação de cafés e restaurantes", "eficiência energética"],
+      "knowsLanguage": ["pt", "en", "ru", "es", "de"],
+      "sameAs": ["https://www.linkedin.com/in/igor-kartuzov/", "https://seedwave.pt/"]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#0c1417; --surface:#132227; --ink:#e8f1f2; --muted:#9fb4b8;
+  --accent:#22b8d6; --accent-ink:#0c1417; --line:#24393f; --warn:#e4b35a;
+}
+:root[data-theme="light"]{
+  --bg:#f3f8f9; --surface:#ffffff; --ink:#132227; --muted:#4d6a70;
+  --accent:#0E8FA8; --accent-ink:#ffffff; --line:#d5e6e9; --warn:#a9770f;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:76px 20px 40px}
+.brandmark{position:fixed;top:13px;left:16px;width:26px;height:26px;z-index:6}
+.topctrl{position:fixed;top:12px;right:14px;z-index:6;display:flex;align-items:center;gap:8px}
+.rbtn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--surface);color:var(--ink);font-size:13px;font-weight:600;
+  cursor:pointer;display:flex;align-items:center;justify-content:center}
+.langpop{position:fixed;top:56px;right:14px;z-index:7;background:var(--surface);
+  border:1px solid var(--line);border-radius:12px;padding:6px;display:none;min-width:150px}
+.langpop.open{display:block}
+.langpop button{display:block;width:100%;text-align:left;background:none;border:0;
+  color:var(--ink);padding:9px 12px;border-radius:8px;cursor:pointer;font-size:14px}
+.langpop button.active{color:var(--accent);font-weight:700}
+.langpop button:hover{background:var(--bg)}
+.eyebrow{color:var(--accent);font-weight:700;font-size:13px;letter-spacing:.06em;
+  text-transform:uppercase;margin:0 0 10px}
+h1{font-size:29px;line-height:1.22;margin:0 0 16px;letter-spacing:-.01em}
+.lead{font-size:19px;line-height:1.5;margin:0 0 8px}
+.lead b{color:var(--accent)}
+.geo{font-size:13px;color:var(--muted);margin:0 0 22px}
+.meta{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);padding:11px 0;margin:0 0 26px}
+.meta a{color:var(--muted)}
+h2{font-size:21px;margin:34px 0 12px;letter-spacing:-.01em}
+h3{font-size:16.5px;margin:22px 0 6px}
+p{margin:0 0 14px}
+a{color:var(--accent);text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);
+  text-underline-offset:3px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:18px 18px 6px;margin:14px 0}
+.card h3{margin-top:2px}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.04em;
+  padding:3px 9px;border-radius:20px;background:color-mix(in srgb,var(--accent) 16%,transparent);
+  color:var(--accent);margin:0 0 8px}
+.pillars{list-style:none;padding:0;margin:14px 0}
+.pillars li{position:relative;padding:0 0 12px 26px;margin:0}
+.pillars li::before{content:"→";position:absolute;left:0;top:0;color:var(--accent);font-weight:700}
+.guides{display:block;background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px;margin:10px 0;text-decoration:none;color:var(--ink)}
+.guides:hover{border-color:var(--accent)}
+.guides b{color:var(--accent);display:block;margin-bottom:2px}
+.guides span{font-size:13px;color:var(--muted)}
+.rule{background:color-mix(in srgb,var(--warn) 12%,transparent);
+  border-left:3px solid var(--warn);border-radius:0 10px 10px 0;padding:14px 16px;margin:18px 0}
+.rule b{color:var(--warn)}
+details{border:1px solid var(--line);border-radius:12px;padding:2px 16px;margin:10px 0;background:var(--surface)}
+summary{cursor:pointer;font-weight:600;padding:13px 0;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--accent);font-size:19px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding-bottom:12px;margin:0}
+.cta{display:block;text-align:center;background:var(--accent);color:var(--accent-ink);
+  font-weight:700;font-size:17px;text-decoration:none;padding:16px;border-radius:14px;margin:30px 0 8px}
+.cta-note{font-size:12px;color:var(--muted);text-align:center;margin:0 0 10px}
+footer{text-align:center;font-size:15px;color:var(--muted);
+  margin-top:40px;padding-bottom:64px}
+footer a{color:var(--muted);text-decoration:underline;text-decoration-color:var(--accent);
+  text-underline-offset:4px;display:inline-block;padding:8px 4px}
+[data-lang]{display:none}
+[data-lang].show{display:block}
+@media(max-width:520px){h1{font-size:25px}.lead{font-size:17px}}
+</style>
+</head>
+<body>
+
+<!-- Брендмарк S (var(--accent), меняется с темой) -->
+<a class="brandmark" href="https://seedwave.pt/" aria-label="SeedWave">
+<svg viewBox="0 0 100 100" width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="7" stroke-linecap="round">
+<path d="M67 31 C67 20 45 18 38 27 C31 36 42 44 51 47 C62 51 69 55 66 65 C63 76 42 78 34 69"/>
+<path d="M20 86 Q30 80 40 86 Q50 92 60 86 Q70 80 80 86"/></svg></a>
+
+<div class="topctrl">
+  <button class="rbtn" id="langBtn" aria-label="Idioma">PT</button>
+  <button class="rbtn" id="themeBtn" aria-label="Tema">☾</button>
+</div>
+<div class="langpop" id="langPop">
+  <button data-set="pt" class="active">PT · Português</button>
+  <button data-set="en">EN · English</button>
+  <button data-set="ru">RU · Русский</button>
+  <button data-set="es">ES · Español</button>
+  <button data-set="de">DE · Deutsch</button>
+</div>
+
+<!-- ================= PT ================= -->
+<div class="wrap" data-lang="pt">
+  <p class="eyebrow">SeedWave · Madeira · Apoios HoReCa</p>
+  <h1>Igor Kartuzov — apoios, subsídios e automação para cafés e restaurantes na Madeira</h1>
+  <p class="lead">35 anos a construir negócios reais. Hoje ajudo <b>cafés e restaurantes da Madeira</b> a captar apoios públicos (SIEED, Portugal 2030, digitalização, contratação) e a automatizar.</p>
+  <p class="geo">📍 Madeira · Portugal — para donos de cafés, restaurantes e espaços de restauração (HoReCa). Trabalho como consultor independente.</p>
+
+  <p class="meta">SeedWave · subsídios e automação para HoReCa em Portugal (Madeira) · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">LinkedIn</a></p>
+
+  <h2>O que faço</h2>
+  <p>Ajudo quem tem (ou vai abrir) um café ou restaurante na Madeira a <b>não deixar dinheiro em cima da mesa</b>: encontrar o apoio certo, preparar a candidatura como deve ser, e automatizar o negócio (pré-pedido, pagamento antecipado) — muitas vezes a mesma despesa que pode ser comparticipada.</p>
+  <ul class="pillars">
+    <li>Mapear que apoio se aplica ao seu caso (equipamento, energia, digitalização, abertura, contratação).</li>
+    <li>Conduzir a candidatura — documentos, prazos, texto do aviso — <b>antes</b> de comprar seja o que for.</li>
+    <li>Automatizar a operação (encomenda e pagamento digital) e enquadrá-la no apoio quando possível.</li>
+  </ul>
+
+  <h2>Porquê eu</h2>
+  <p>Não venho do «código». Venho de <b>35 anos de operador</b> — imobiliário, produção, financiamento de projetos. Sei ler risco, prazo e retorno como um dono de negócio, não como um formulário. Hoje aplico isso à captação de apoios e à automação de HoReCa, através da <b>SeedWave</b>.</p>
+
+  <h2>O que já publiquei (verificável)</h2>
+  <p>Guias claros e <b>com cada número ligado à fonte oficial</b> — pode confirmar antes de falar comigo:</p>
+  <a class="guides" href="https://apoios.seedwave.dev/restauracao-madeira/"><b>Apoios para cafés e restaurantes na Madeira 2026</b><span>Que programas existem, quanto e como candidatar. PT/EN.</span></a>
+  <a class="guides" href="https://apoios.seedwave.dev/sieed-madeira/"><b>SIEED — Eficiência Energética 2030 (prazo 10.09.2026)</b><span>50% para PME, equipamento de cozinha e energia. PT.</span></a>
+
+  <div class="rule">
+    <p><b>A minha regra de ouro:</b> primeiro candidatar, só depois comprar. O erro que mais faz perder apoios é assinar ou comprar antes de submeter. Transparência total — o apoio do Estado cobre o investimento; o acompanhamento é à parte.</p>
+  </div>
+
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Com quem trabalha?</summary><p>Com cafés e restaurantes na Madeira e em Lisboa — de espaços a abrir de raiz a negócios já em funcionamento. Cada caso é tratado de forma confidencial.</p></details>
+  <details><summary>Como funciona o primeiro contacto?</summary><p>Uma conversa curta sobre o seu negócio e o que quer fazer. A partir daí digo-lhe honestamente se há um apoio que se aplique e quais os próximos passos.</p></details>
+  <details><summary>Garante o subsídio?</summary><p>Ninguém sério garante um subsídio — a decisão é da entidade. O que garanto é a candidatura bem feita, a tempo, e sem os erros que a fariam cair.</p></details>
+
+  <a class="cta" href="https://t.me/SeedWaveBot?start=g-sub-mad" data-cta="bot-g-sub-mad">Falar comigo →</a>
+  <p class="cta-note">Uma primeira conversa sobre o seu caso, sem compromisso.</p>
+</div>
+
+<!-- ================= EN ================= -->
+<div class="wrap" data-lang="en">
+  <p class="eyebrow">SeedWave · Madeira · HoReCa grants</p>
+  <h1>Igor Kartuzov — public grants, subsidies and automation for cafés and restaurants in Madeira</h1>
+  <p class="lead">35 years building real businesses. Today I help <b>café and restaurant owners in Madeira</b> capture public grants (SIEED, Portugal 2030, digitalisation, hiring) and automate.</p>
+  <p class="geo">📍 Madeira · Portugal — for owners of cafés, restaurants and hospitality venues (HoReCa). I work as an independent consultant.</p>
+
+  <p class="meta">SeedWave · subsidies and automation for HoReCa in Portugal (Madeira) · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">LinkedIn</a></p>
+
+  <h2>What I do</h2>
+  <p>I help people who run (or are about to open) a café or restaurant in Madeira <b>leave no money on the table</b>: find the right grant, prepare the application properly, and automate the business (pre-order, upfront payment) — often the very spend that can be co-funded.</p>
+  <ul class="pillars">
+    <li>Map which grant fits your case (equipment, energy, digitalisation, opening, hiring).</li>
+    <li>Run the application — documents, deadlines, call text — <b>before</b> you buy anything.</li>
+    <li>Automate the operation (digital ordering and payment) and fit it inside the grant where possible.</li>
+  </ul>
+
+  <h2>Why me</h2>
+  <p>I don't come from «code». I come from <b>35 years as an operator</b> — real estate, manufacturing, project finance. I read risk, deadline and return like a business owner, not like a form. Today I apply that to grant capture and HoReCa automation, through <b>SeedWave</b>.</p>
+
+  <h2>What I've already published (verifiable)</h2>
+  <p>Clear guides with <b>every figure linked to the official source</b> — check before you talk to me:</p>
+  <a class="guides" href="https://apoios.seedwave.dev/restauracao-madeira/"><b>Grants for cafés and restaurants in Madeira 2026</b><span>Which programmes exist, how much and how to apply. PT/EN.</span></a>
+  <a class="guides" href="https://apoios.seedwave.dev/sieed-madeira/"><b>SIEED — Energy Efficiency 2030 (deadline 10.09.2026)</b><span>50% for SMEs, kitchen and energy equipment. PT.</span></a>
+
+  <div class="rule">
+    <p><b>My golden rule:</b> apply first, buy after. The mistake that loses most grants is signing or buying before submitting. Full transparency — the State grant covers the investment; the guidance is separate.</p>
+  </div>
+
+  <h2>FAQ</h2>
+  <details><summary>Who do you work with?</summary><p>Cafés and restaurants in Madeira and Lisbon — from venues opening from scratch to businesses already running. Each case is handled confidentially.</p></details>
+  <details><summary>How does the first contact work?</summary><p>A short conversation about your business and what you want to do. From there I tell you honestly whether a grant applies and what the next steps are.</p></details>
+  <details><summary>Do you guarantee the grant?</summary><p>No serious person guarantees a grant — the decision is the authority's. What I guarantee is a well-made application, on time, without the mistakes that would sink it.</p></details>
+
+  <a class="cta" href="https://t.me/SeedWaveBot?start=g-sub-mad" data-cta="bot-g-sub-mad">Talk to me →</a>
+  <p class="cta-note">A first conversation about your case, no commitment.</p>
+</div>
+
+<!-- ================= RU ================= -->
+<div class="wrap" data-lang="ru">
+  <p class="eyebrow">SeedWave · Мадейра · Субсидии HoReCa</p>
+  <h1>Игорь Картузов — субсидии, гранты и автоматизация для кафе и ресторанов на Мадейре</h1>
+  <p class="lead">35 лет строю реальный бизнес. Сегодня помогаю <b>владельцам кафе и ресторанов на Мадейре</b> получать государственные субсидии (SIEED, Portugal 2030, цифровизация, найм) и автоматизировать бизнес.</p>
+  <p class="geo">📍 Мадейра · Португалия — для владельцев кафе, ресторанов и заведений общепита (HoReCa). Работаю как независимый консультант.</p>
+
+  <p class="meta">SeedWave · субсидии и автоматизация для HoReCa в Португалии (Мадейра) · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">LinkedIn</a></p>
+
+  <h2>Что я делаю</h2>
+  <p>Помогаю тем, у кого есть (или кто открывает) кафе или ресторан на Мадейре, <b>не оставлять деньги на столе</b>: найти подходящую субсидию, правильно подготовить заявку и автоматизировать бизнес (предзаказ, предоплата) — часто это та самая статья расходов, которую можно возместить.</p>
+  <ul class="pillars">
+    <li>Разобрать, какая субсидия подходит именно вам (оборудование, энергия, цифровизация, открытие, найм).</li>
+    <li>Провести заявку — документы, сроки, текст aviso — <b>до</b> того, как вы что-либо купите.</li>
+    <li>Автоматизировать работу (цифровой заказ и оплата) и, где можно, включить это в субсидируемые расходы.</li>
+  </ul>
+
+  <h2>Почему я</h2>
+  <p>Я не из «кода». Я из <b>35 лет операторского опыта</b> — недвижимость, производство, проектное финансирование. Читаю риск, срок и отдачу как владелец бизнеса, а не как анкету. Сегодня применяю это к получению субсидий и автоматизации HoReCa — через <b>SeedWave</b>.</p>
+
+  <h2>Что уже опубликовано (можно проверить)</h2>
+  <p>Понятные гайды, где <b>каждая цифра привязана к официальному источнику</b> — проверьте до разговора со мной:</p>
+  <a class="guides" href="https://apoios.seedwave.dev/restauracao-madeira/"><b>Субсидии для кафе и ресторанов на Мадейре 2026</b><span>Какие программы есть, сколько и как подать. PT/EN.</span></a>
+  <a class="guides" href="https://apoios.seedwave.dev/sieed-madeira/"><b>SIEED — Энергоэффективность 2030 (срок 10.09.2026)</b><span>50% для МСП, кухонное и энергооборудование. PT.</span></a>
+
+  <div class="rule">
+    <p><b>Моё золотое правило:</b> сначала заявка, потом покупка. Ошибка, которая чаще всего лишает субсидии, — подписать или купить до подачи. Полная прозрачность: субсидия государства покрывает инвестицию, сопровождение — отдельно.</p>
+  </div>
+
+  <h2>Частые вопросы</h2>
+  <details><summary>С кем вы работаете?</summary><p>С кафе и ресторанами на Мадейре и в Лиссабоне — от заведений, открывающихся с нуля, до уже работающих. Каждый случай — конфиденциально.</p></details>
+  <details><summary>Как проходит первый контакт?</summary><p>Короткий разговор о вашем бизнесе и о том, что вы хотите сделать. Дальше я честно говорю, есть ли подходящая субсидия и какие следующие шаги.</p></details>
+  <details><summary>Вы гарантируете субсидию?</summary><p>Ни один серьёзный человек не гарантирует субсидию — решение за ведомством. Я гарантирую грамотно сделанную заявку, вовремя, без ошибок, которые её завалят.</p></details>
+
+  <a class="cta" href="https://t.me/SeedWaveBot?start=g-sub-mad" data-cta="bot-g-sub-mad">Написать мне →</a>
+  <p class="cta-note">Первый разговор о вашем случае, без обязательств.</p>
+</div>
+
+<!-- ================= ES ================= -->
+<div class="wrap" data-lang="es">
+  <p class="eyebrow">SeedWave · Madeira · Ayudas HoReCa</p>
+  <h1>Igor Kartuzov — ayudas, subvenciones y automatización para cafeterías y restaurantes en Madeira</h1>
+  <p class="lead">35 años construyendo negocios reales. Hoy ayudo a <b>dueños de cafeterías y restaurantes en Madeira</b> a captar ayudas públicas (SIEED, Portugal 2030, digitalización, contratación) y a automatizar.</p>
+  <p class="geo">📍 Madeira · Portugal — isla portuguesa, <b>no Madrid ni España</b>. Para dueños de cafeterías, restaurantes y hostelería (HoReCa). Trabajo como consultor independiente.</p>
+
+  <p class="meta">SeedWave · subvenciones y automatización para HoReCa en Portugal (Madeira) · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">LinkedIn</a></p>
+
+  <h2>Qué hago</h2>
+  <p>Ayudo a quien tiene (o va a abrir) una cafetería o restaurante en Madeira a <b>no dejar dinero sobre la mesa</b>: encontrar la ayuda adecuada, preparar bien la solicitud y automatizar el negocio (pedido anticipado, pago por adelantado) — a menudo el mismo gasto que puede subvencionarse.</p>
+  <ul class="pillars">
+    <li>Identificar qué ayuda encaja en su caso (equipamiento, energía, digitalización, apertura, contratación).</li>
+    <li>Llevar la solicitud — documentos, plazos, texto del aviso — <b>antes</b> de comprar nada.</li>
+    <li>Automatizar la operación (pedido y pago digital) e incluirla en la ayuda cuando sea posible.</li>
+  </ul>
+
+  <h2>Por qué yo</h2>
+  <p>No vengo del «código». Vengo de <b>35 años como operador</b> — inmobiliario, producción, financiación de proyectos. Leo el riesgo, el plazo y el retorno como un dueño de negocio, no como un formulario. Hoy lo aplico a la captación de ayudas y a la automatización de HoReCa, a través de <b>SeedWave</b>.</p>
+
+  <h2>Lo que ya he publicado (verificable)</h2>
+  <p>Guías claras con <b>cada cifra enlazada a la fuente oficial</b> — compruébelo antes de hablar conmigo:</p>
+  <a class="guides" href="https://apoios.seedwave.dev/restauracao-madeira/"><b>Ayudas para cafeterías y restaurantes en Madeira 2026</b><span>Qué programas existen, cuánto y cómo solicitar. PT/EN.</span></a>
+  <a class="guides" href="https://apoios.seedwave.dev/sieed-madeira/"><b>SIEED — Eficiencia Energética 2030 (plazo 10.09.2026)</b><span>50% para pymes, equipamiento de cocina y energía. PT.</span></a>
+
+  <div class="rule">
+    <p><b>Mi regla de oro:</b> primero solicitar, después comprar. El error que más ayudas hace perder es firmar o comprar antes de presentar la solicitud. Transparencia total — la ayuda del Estado cubre la inversión; el acompañamiento es aparte.</p>
+  </div>
+
+  <h2>Preguntas frecuentes</h2>
+  <details><summary>¿Con quién trabaja?</summary><p>Con cafeterías y restaurantes en Madeira y en Lisboa — desde locales que abren de cero hasta negocios en funcionamiento. Cada caso se trata de forma confidencial.</p></details>
+  <details><summary>¿Cómo es el primer contacto?</summary><p>Una conversación breve sobre su negocio y lo que quiere hacer. A partir de ahí le digo con honestidad si hay una ayuda que aplique y cuáles son los siguientes pasos.</p></details>
+  <details><summary>¿Garantiza la subvención?</summary><p>Nadie serio garantiza una subvención — la decisión es del organismo. Lo que garantizo es una solicitud bien hecha, a tiempo, sin los errores que la harían caer.</p></details>
+
+  <a class="cta" href="https://t.me/SeedWaveBot?start=g-sub-mad" data-cta="bot-g-sub-mad">Hablar conmigo →</a>
+  <p class="cta-note">Una primera conversación sobre su caso, sin compromiso.</p>
+</div>
+
+<!-- ================= DE ================= -->
+<div class="wrap" data-lang="de">
+  <p class="eyebrow">SeedWave · Madeira · HoReCa-Förderung</p>
+  <h1>Igor Kartuzov — Förderungen, Zuschüsse und Automatisierung für Cafés und Restaurants auf Madeira</h1>
+  <p class="lead">35 Jahre lang echte Unternehmen aufgebaut. Heute helfe ich <b>Café- und Restaurantinhabern auf Madeira</b>, öffentliche Förderungen (SIEED, Portugal 2030, Digitalisierung, Einstellung) zu nutzen und zu automatisieren.</p>
+  <p class="geo">📍 Madeira · Portugal — portugiesische Insel, <b>nicht Deutschland</b>. Für Inhaber von Cafés, Restaurants und Gastronomie (HoReCa). Ich arbeite als unabhängiger Berater.</p>
+
+  <p class="meta">SeedWave · Zuschüsse und Automatisierung für HoReCa in Portugal (Madeira) · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">LinkedIn</a></p>
+
+  <h2>Was ich tue</h2>
+  <p>Ich helfe denen, die auf Madeira ein Café oder Restaurant führen (oder eröffnen wollen), <b>kein Geld liegen zu lassen</b>: die richtige Förderung finden, den Antrag ordentlich vorbereiten und den Betrieb automatisieren (Vorbestellung, Vorauszahlung) — oft genau die Ausgabe, die bezuschusst werden kann.</p>
+  <ul class="pillars">
+    <li>Ermitteln, welche Förderung zu Ihrem Fall passt (Ausstattung, Energie, Digitalisierung, Eröffnung, Einstellung).</li>
+    <li>Den Antrag führen — Unterlagen, Fristen, Ausschreibungstext — <b>bevor</b> Sie irgendetwas kaufen.</li>
+    <li>Den Betrieb automatisieren (digitale Bestellung und Zahlung) und wo möglich in die Förderung einbinden.</li>
+  </ul>
+
+  <h2>Warum ich</h2>
+  <p>Ich komme nicht vom «Code». Ich komme aus <b>35 Jahren als Unternehmer</b> — Immobilien, Produktion, Projektfinanzierung. Ich lese Risiko, Frist und Rendite wie ein Geschäftsinhaber, nicht wie ein Formular. Heute wende ich das auf Fördermittel und HoReCa-Automatisierung an — über <b>SeedWave</b>.</p>
+
+  <h2>Was ich bereits veröffentlicht habe (nachprüfbar)</h2>
+  <p>Klare Leitfäden, in denen <b>jede Zahl mit der offiziellen Quelle verknüpft</b> ist — prüfen Sie es, bevor Sie mit mir sprechen:</p>
+  <a class="guides" href="https://apoios.seedwave.dev/restauracao-madeira/"><b>Förderungen für Cafés und Restaurants auf Madeira 2026</b><span>Welche Programme es gibt, wie viel und wie man beantragt. PT/EN.</span></a>
+  <a class="guides" href="https://apoios.seedwave.dev/sieed-madeira/"><b>SIEED — Energieeffizienz 2030 (Frist 10.09.2026)</b><span>50% für KMU, Küchen- und Energieausstattung. PT.</span></a>
+
+  <div class="rule">
+    <p><b>Meine goldene Regel:</b> erst beantragen, dann kaufen. Der Fehler, der die meisten Förderungen kostet, ist Kaufen oder Unterschreiben vor der Einreichung. Volle Transparenz — die staatliche Förderung deckt die Investition; die Begleitung ist separat.</p>
+  </div>
+
+  <h2>Häufige Fragen</h2>
+  <details><summary>Mit wem arbeiten Sie?</summary><p>Mit Cafés und Restaurants auf Madeira und in Lissabon — von neu eröffnenden Lokalen bis zu bereits laufenden Betrieben. Jeder Fall wird vertraulich behandelt.</p></details>
+  <details><summary>Wie läuft der erste Kontakt ab?</summary><p>Ein kurzes Gespräch über Ihr Geschäft und Ihr Vorhaben. Danach sage ich Ihnen ehrlich, ob eine Förderung infrage kommt und wie die nächsten Schritte aussehen.</p></details>
+  <details><summary>Garantieren Sie den Zuschuss?</summary><p>Niemand Seriöses garantiert einen Zuschuss — die Entscheidung liegt bei der Behörde. Ich garantiere einen sauber gemachten Antrag, rechtzeitig, ohne die Fehler, die ihn scheitern lassen.</p></details>
+
+  <a class="cta" href="https://t.me/SeedWaveBot?start=g-sub-mad" data-cta="bot-g-sub-mad">Schreiben Sie mir →</a>
+  <p class="cta-note">Ein erstes Gespräch über Ihren Fall, unverbindlich.</p>
+</div>
+
+<footer>
+  © <span id="yr"></span> <a href="https://seedwave.pt/">SeedWave</a> · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">Igor Kartuzov</a> · <a href="https://apoios.seedwave.dev/">Guias</a>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var qs=new URLSearchParams(location.search);
+// ---- theme ----
+var theme=qs.get('theme')||localStorage.getItem('sw_theme')||'dark';
+function setTheme(t){document.documentElement.setAttribute('data-theme',t==='light'?'light':'');
+  document.getElementById('themeBtn').textContent=t==='light'?'☀':'☾';localStorage.setItem('sw_theme',t);}
+setTheme(theme);
+document.getElementById('themeBtn').onclick=function(){setTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');};
+// ---- language ----
+var supported=['pt','en','ru','es','de'];
+var lang=(qs.get('lang')||localStorage.getItem('sw_lang')||(navigator.language||'pt').slice(0,2)).toLowerCase();
+if(supported.indexOf(lang)<0)lang='pt';
+function setLang(l){lang=l;localStorage.setItem('sw_lang',l);
+  document.querySelectorAll('[data-lang]').forEach(function(el){el.classList.toggle('show',el.getAttribute('data-lang')===l);});
+  document.getElementById('langBtn').textContent=l.toUpperCase();
+  document.documentElement.setAttribute('lang',l);
+  document.querySelectorAll('#langPop button').forEach(function(b){b.classList.toggle('active',b.getAttribute('data-set')===l);});}
+setLang(lang);
+var pop=document.getElementById('langPop');
+document.getElementById('langBtn').onclick=function(e){e.stopPropagation();pop.classList.toggle('open');};
+document.querySelectorAll('#langPop button').forEach(function(b){b.onclick=function(){setLang(b.getAttribute('data-set'));pop.classList.remove('open');};});
+document.addEventListener('click',function(){pop.classList.remove('open');});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')pop.classList.remove('open');});
+</script>
+</body>
+</html>
