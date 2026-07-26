@@ -1,0 +1,94 @@
+:root{
+  --bg:#0c1417; --surface:#132227; --ink:#e8f1f2; --muted:#9fb4b8;
+  --accent:#22b8d6; --accent-ink:#0c1417; --line:#24393f; --warn:#e4b35a;
+}
+:root[data-theme="light"]{
+  --bg:#f3f8f9; --surface:#ffffff; --ink:#132227; --muted:#4d6a70;
+  --accent:#0E8FA8; --accent-ink:#ffffff; --line:#d5e6e9; --warn:#a9770f;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:76px 20px 40px}
+.brandmark{position:fixed;top:13px;left:16px;width:26px;height:26px;z-index:6}
+.topctrl{position:fixed;top:12px;right:14px;z-index:6;display:flex;align-items:center;gap:8px}
+.rbtn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);
+  background:var(--surface);color:var(--ink);font-size:13px;font-weight:600;
+  cursor:pointer;display:flex;align-items:center;justify-content:center}
+.langpop{position:fixed;top:56px;right:14px;z-index:7;background:var(--surface);
+  border:1px solid var(--line);border-radius:12px;padding:6px;display:none;min-width:150px}
+.langpop.open{display:block}
+.langpop button{display:block;width:100%;text-align:left;background:none;border:0;
+  color:var(--ink);padding:9px 12px;border-radius:8px;cursor:pointer;font-size:14px}
+.langpop button.active{color:var(--accent);font-weight:700}
+.langpop button:hover{background:var(--bg)}
+.eyebrow{color:var(--accent);font-weight:700;font-size:13px;letter-spacing:.06em;
+  text-transform:uppercase;margin:0 0 10px}
+h1{font-size:29px;line-height:1.22;margin:0 0 16px;letter-spacing:-.01em}
+.lead{font-size:19px;line-height:1.5;margin:0 0 8px}
+.lead b{color:var(--accent)}
+.geo{font-size:13px;color:var(--muted);margin:0 0 22px}
+.meta{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);padding:11px 0;margin:0 0 26px}
+.meta a{color:var(--muted)}
+h2{font-size:21px;margin:34px 0 12px;letter-spacing:-.01em}
+h3{font-size:16.5px;margin:22px 0 6px}
+p{margin:0 0 14px}
+a{color:var(--accent);text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);
+  text-underline-offset:3px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;
+  padding:18px 18px 6px;margin:14px 0}
+.card h3{margin-top:2px}
+.tag{display:inline-block;font-size:11.5px;font-weight:700;letter-spacing:.04em;
+  padding:3px 9px;border-radius:20px;background:color-mix(in srgb,var(--accent) 16%,transparent);
+  color:var(--accent);margin:0 0 8px}
+.tag.open{background:color-mix(in srgb,#2fbf71 20%,transparent);color:#2fbf71}
+.tag.wait{background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn)}
+.rule{background:color-mix(in srgb,var(--warn) 12%,transparent);
+  border-left:3px solid var(--warn);border-radius:0 10px 10px 0;padding:14px 16px;margin:18px 0}
+.rule b{color:var(--warn)}
+.hero-tick{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;
+  color:var(--muted);background:var(--surface);border:1px solid var(--line);
+  border-radius:12px;padding:11px 14px;margin:0 0 22px}
+.flow{display:inline-flex;align-items:center;gap:7px;font-weight:600;color:var(--ink)}
+.euro{color:var(--accent);animation:slideEuro 2.6s linear infinite}
+@keyframes slideEuro{0%{transform:translateX(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(26px);opacity:0}}
+details{border:1px solid var(--line);border-radius:12px;padding:2px 16px;margin:10px 0;background:var(--surface)}
+summary{cursor:pointer;font-weight:600;padding:13px 0;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;color:var(--accent);font-size:19px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding-bottom:12px;margin:0}
+.cta{display:block;text-align:center;background:var(--accent);color:var(--accent-ink);
+  font-weight:700;font-size:17px;text-decoration:none;padding:16px;border-radius:14px;margin:30px 0 8px}
+.cta-note{font-size:12px;color:var(--muted);text-align:center;margin:0 0 10px}
+footer{text-align:center;font-size:15px;color:var(--muted);
+  margin-top:40px;padding-bottom:64px}
+footer a{color:var(--muted);text-decoration:underline;text-decoration-color:var(--accent);
+  text-underline-offset:4px;display:inline-block;padding:8px 4px}
+[data-lang]{display:none}
+[data-lang].show{display:block}
+@media(prefers-reduced-motion:reduce){.euro{animation:none;opacity:1}}
+@media(max-width:520px){h1{font-size:25px}.lead{font-size:17px}}
+
+/* blocks used by other pages of the series */
+.alert{display:flex;align-items:center;gap:14px;background:color-mix(in srgb,var(--hot) 14%,transparent);border:1px solid color-mix(in srgb,var(--hot) 45%,transparent);border-radius:14px;padding:14px 16px;margin:0 0 22px}
+.alert{display:flex;align-items:center;gap:14px;background:color-mix(in srgb,var(--hot) 14%,transparent);border:1px solid color-mix(in srgb,var(--hot) 45%,transparent);border-radius:14px;padding:14px 16px;margin:0 0 22px}
+.alert .big{font-size:30px;font-weight:800;color:var(--hot);line-height:1}
+.alert .lbl{font-size:13px;color:var(--muted)}
+.alert .lbl b{color:var(--ink)}
+ul{padding-left:20px;margin:0 0 14px}
+li{margin:4px 0}
+.verdict{display:flex;align-items:center;gap:14px;background:color-mix(in srgb,var(--warn) 14%,transparent);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent);border-radius:14px;padding:14px 16px;margin:0 0 22px}
+.verdict .big{font-size:30px;line-height:1}
+.verdict .lbl{font-size:13.5px;color:var(--muted)}
+.verdict .lbl b{color:var(--ink)}
+.tag.closed{background:color-mix(in srgb,var(--hot) 18%,transparent);color:var(--hot)}
+ol{padding-left:20px;margin:0 0 14px}
+
+/* language switcher: plain links */
+.langpop a{display:block;width:100%;text-align:left;background:none;border:0;color:var(--ink);padding:9px 12px;border-radius:8px;font-size:14px;text-decoration:none}
+.langpop a.active{color:var(--accent);font-weight:700}
+.langpop a:hover{background:var(--bg)}

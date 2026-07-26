@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="{{URL}}">
+{{HREFLANG}}
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='23' fill='%23E6F3F6'/%3E%3Cg fill='none' stroke='%230E8FA8' stroke-width='7' stroke-linecap='round'%3E%3Cpath d='M67 31 C67 20 45 18 38 27 C31 36 42 44 51 47 C62 51 69 55 66 65 C63 76 42 78 34 69'/%3E%3Cpath d='M20 86 Q30 80 40 86 Q50 92 60 86 Q70 80 80 86'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="{{APPTITLE}}">
+<meta name="theme-color" content="#0c1417">
+
+<meta property="og:title" content="{{OGTITLE}}">
+<meta property="og:description" content="{{OGDESCRIPTION}}">
+<meta property="og:image" content="{{OGIMAGE}}">
+<meta property="og:url" content="{{URL}}">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="{{OGLOCALE}}">
+{{OGALTERNATES}}
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{{JSONLD}}
+</script>
+
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+
+<a class="brandmark" href="https://seedwave.pt/" aria-label="SeedWave">
+<svg viewBox="0 0 100 100" width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="7" stroke-linecap="round">
+<path d="M67 31 C67 20 45 18 38 27 C31 36 42 44 51 47 C62 51 69 55 66 65 C63 76 42 78 34 69"/>
+<path d="M20 86 Q30 80 40 86 Q50 92 60 86 Q70 80 80 86"/></svg></a>
+
+<div class="topctrl">
+  <button class="rbtn" id="langBtn" aria-label="{{LANGLABEL}}" aria-haspopup="true" aria-expanded="false">{{LANGUPPER}}</button>
+  <button class="rbtn" id="themeBtn" aria-label="{{THEMELABEL}}">☾</button>
+</div>
+<nav class="langpop" id="langPop" aria-label="{{LANGLABEL}}">
+{{LANGLINKS}}
+</nav>
+
+<div class="wrap">
+{{BODY}}
+</div>
+
+<footer>
+  © <span id="yr"></span> <a href="https://seedwave.pt/">SeedWave</a> · <a href="https://www.linkedin.com/in/igor-kartuzov/" rel="nofollow">Igor Kartuzov</a>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var qs=new URLSearchParams(location.search);
+// ---- theme ----
+var theme=qs.get('theme')||localStorage.getItem('sw_theme')||'dark';
+function setTheme(t){document.documentElement.setAttribute('data-theme',t==='light'?'light':'');
+  document.getElementById('themeBtn').textContent=t==='light'?'☀':'☾';localStorage.setItem('sw_theme',t);}
+setTheme(theme);
+document.getElementById('themeBtn').onclick=function(){setTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');};
+// ---- language: each language lives on its own URL, the switcher is plain links ----
+localStorage.setItem('sw_lang','{{LANG}}');
+var pop=document.getElementById('langPop'),btn=document.getElementById('langBtn');
+btn.onclick=function(e){e.stopPropagation();var o=pop.classList.toggle('open');btn.setAttribute('aria-expanded',o);};
+document.addEventListener('click',function(){pop.classList.remove('open');btn.setAttribute('aria-expanded',false);});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){pop.classList.remove('open');btn.setAttribute('aria-expanded',false);}});
+// ---- days left until 10.09.2026 (only where the page has .days) ----
+(function(){var els=document.querySelectorAll('.days,#days');if(!els.length)return;
+  var d=Math.ceil((new Date('2026-09-10T17:00:00+01:00')-new Date())/86400000);
+  els.forEach(function(el){el.textContent=d>0?d:'0';});})();
+</script>
+</body>
+</html>

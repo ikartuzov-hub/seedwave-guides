@@ -3,15 +3,33 @@
 > Guias claros e verificados sobre subsídios/apoios públicos e digitalização para cafés e restaurantes na Madeira, Portugal. Autor: Igor Kartuzov (SeedWave). Cada número é verificado com o texto do aviso e remete para a fonte primária.
 
 ## Guias
-- [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://apoios.seedwave.dev/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN.
+- [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://apoios.seedwave.dev/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN/ES/RU/DE — cada língua no seu próprio endereço:
+  - [Que apoios existem para cafés e restaurantes na Madeira em 2026 — quanto e como candidatar?](https://apoios.seedwave.dev/restauracao-madeira/) — PT
+  - [What grants exist for cafés and restaurants in Madeira in 2026 — how much and how to apply?](https://apoios.seedwave.dev/restauracao-madeira/en/) — EN
+  - [¿Qué ayudas existen para cafeterías y restaurantes en Madeira en 2026 — cuánto y cómo solicitarlas?](https://apoios.seedwave.dev/restauracao-madeira/es/) — ES
+  - [Какие субсидии есть для кафе и ресторанов на Мадейре в 2026 году — сколько и как подать заявку?](https://apoios.seedwave.dev/restauracao-madeira/ru/) — RU
+  - [Welche Förderungen gibt es 2026 für Cafés und Restaurants auf Madeira — wie viel und wie beantragen?](https://apoios.seedwave.dev/restauracao-madeira/de/) — DE
 
-- [SIEED — Eficiência Energética 2030 na Madeira (prazo 10.09.2026)](https://apoios.seedwave.dev/sieed-madeira/): o que cobre o SIEED (M2030-2026-21) para cafés/restaurantes, 50% para PME, e como candidatar antes do prazo. PT.
+- [SIEED — Eficiência Energética 2030 na Madeira (prazo 10.09.2026)](https://apoios.seedwave.dev/sieed-madeira/): o que cobre o SIEED (M2030-2026-21) para cafés/restaurantes, 50% para PME, e como candidatar antes do prazo. PT/EN/ES/RU/DE — cada língua no seu próprio endereço:
+  - [SIEED Madeira 2026: até quando me posso candidatar e o que cobre para o meu café/restaurante?](https://apoios.seedwave.dev/sieed-madeira/) — PT
+  - [SIEED Madeira 2026: how long do I have to apply and what does it cover for my café/restaurant?](https://apoios.seedwave.dev/sieed-madeira/en/) — EN
+  - [SIEED Madeira 2026: ¿hasta cuándo puedo solicitarlo y qué cubre para mi cafetería o restaurante?](https://apoios.seedwave.dev/sieed-madeira/es/) — ES
+  - [SIEED Мадейра 2026: до какого числа можно подать заявку и что программа покрывает для моего кафе или ресторана?](https://apoios.seedwave.dev/sieed-madeira/ru/) — RU
+  - [SIEED Madeira 2026: Bis wann kann ich mich bewerben und was deckt das Programm für mein Café oder Restaurant ab?](https://apoios.seedwave.dev/sieed-madeira/de/) — DE
 
-- [Digitalizar café ou restaurante na Madeira 2026 — há apoio aberto?](https://apoios.seedwave.dev/cafe-digital-madeira/): estado verificado a 24.07.2026 — não há aviso regional aberto só para digitalização de PME; Inovação 2030 (M2030-2025-26) encerrou a 30.09.2025 e Internacionalização 2030 (M2030-2026-13) a 15.05.2026. O que preparar antes da próxima janela (certificação PME, situação regularizada, proformas, memória descritiva) e porque o pré-pedido/POS não entra no SIEED. PT/EN.
+- [Digitalizar café ou restaurante na Madeira 2026 — há apoio aberto?](https://apoios.seedwave.dev/cafe-digital-madeira/): estado verificado a 24.07.2026 — não há aviso regional aberto só para digitalização de PME; Inovação 2030 (M2030-2025-26) encerrou a 30.09.2025 e Internacionalização 2030 (M2030-2026-13) a 15.05.2026. O que preparar antes da próxima janela (certificação PME, situação regularizada, proformas, memória descritiva) e porque o pré-pedido/POS não entra no SIEED. PT/EN/ES/RU/DE — cada língua no seu próprio endereço:
+  - [Digitalizar o café ou restaurante na Madeira em 2026: há apoio aberto e o pré-pedido é subsidiável?](https://apoios.seedwave.dev/cafe-digital-madeira/) — PT
+  - [Digitalising a café or restaurant in Madeira in 2026: is any funding open, and can pre-order be subsidised?](https://apoios.seedwave.dev/cafe-digital-madeira/en/) — EN
+  - [Digitalizar la cafetería o el restaurante en Madeira en 2026: ¿hay alguna ayuda abierta y el pedido anticipado es subvencionable?](https://apoios.seedwave.dev/cafe-digital-madeira/es/) — ES
+  - [Цифровизация кафе или ресторана на Мадейре в 2026 году: есть ли открытая субсидия и субсидируется ли предзаказ?](https://apoios.seedwave.dev/cafe-digital-madeira/ru/) — RU
+  - [Café oder Restaurant auf Madeira 2026 digitalisieren: Gibt es eine offene Förderung, und ist die Vorbestellung förderfähig?](https://apoios.seedwave.dev/cafe-digital-madeira/de/) — DE
 
 ## Entidade
 - Igor Kartuzov — SeedWave — subsídios e automação para HoReCa em Portugal (Madeira).
 - Perfil e contacto: [Igor Kartuzov — apoios e automação para restauração na Madeira](https://apoios.seedwave.dev/igor/): consultor independente; 35 anos de operador; ajuda cafés e restaurantes a captar apoios (SIEED, Portugal 2030) e a automatizar. PT/EN/RU/ES/DE.
+
+## Mapa do site
+- Sitemap com alternativas de idioma: https://apoios.seedwave.dev/sitemap.xml
 
 ## Fontes primárias citadas
 - Portal Madeira 2030: https://madeira.portugal2030.pt/
