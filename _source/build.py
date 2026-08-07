@@ -20,11 +20,11 @@ HREF   = {"pt": "pt-PT", "en": "en",    "es": "es",    "ru": "ru",    "de": "de"
 NAME   = {"pt": "PT · Português", "en": "EN · English", "es": "ES · Español",
           "ru": "RU · Русский",   "de": "DE · Deutsch"}
 UI     = {  # единственное, что движок говорит от себя
-  "pt": {"lang": "Idioma",  "theme": "Tema"},
-  "en": {"lang": "Language","theme": "Theme"},
-  "es": {"lang": "Idioma",  "theme": "Tema"},
-  "ru": {"lang": "Язык",    "theme": "Тема"},
-  "de": {"lang": "Sprache", "theme": "Design"},
+  "pt": {"lang": "Idioma",  "theme": "Tema",   "igor": "Quem sou — apoios na Madeira"},
+  "en": {"lang": "Language","theme": "Theme",  "igor": "Who I am — Madeira grants"},
+  "es": {"lang": "Idioma",  "theme": "Tema",   "igor": "Quién soy — ayudas en Madeira"},
+  "ru": {"lang": "Язык",    "theme": "Тема",   "igor": "Кто я — субсидии Мадейры"},
+  "de": {"lang": "Sprache", "theme": "Design", "igor": "Wer ich bin — Madeira-Förderungen"},
 }
 PAGES = ["restauracao-madeira", "sieed-madeira", "cafe-digital-madeira"]
 
@@ -113,6 +113,7 @@ def build():
                 "{{URL}}": url, "{{OGLOCALE}}": LOCALE[lang],
                 "{{HREFLANG}}": hreflang, "{{OGALTERNATES}}": ogalt, "{{LANGLINKS}}": links,
                 "{{LANGLABEL}}": UI[lang]["lang"], "{{THEMELABEL}}": UI[lang]["theme"],
+                "{{IGORANCHOR}}": UI[lang]["igor"],
                 "{{JSONLD}}": jsonld(slug, lang, d), "{{CSS}}": css,
                 "{{BODY}}": localize_links(d["body"], lang),
             }.items():
@@ -151,7 +152,8 @@ def build():
     xml = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
            'xmlns:xhtml="http://www.w3.org/1999/xhtml">',
-           f'  <url><loc>{SITE}/</loc></url>']
+           f'  <url><loc>{SITE}/</loc></url>',
+           f'  <url><loc>{SITE}/igor/</loc></url>']
     for slug in PAGES:
         langs = [l for l in LANGS if os.path.exists(os.path.join(ROOT, "_src", slug, f"{l}.json"))]
         for lang in langs:
