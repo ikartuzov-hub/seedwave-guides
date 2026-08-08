@@ -1,0 +1,30 @@
+name: Tenders Madeira — замер и обновление данных
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tenders-madeira.yml'
+  schedule:
+    - cron: '0 6 3,17 * *'   # 3-го и 17-го числа в 06:00 UTC (данные IMPIC обновляются раз в 2 недели)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Запуск замера
+        run: python3 scripts/fetch_tenders.py
+
+      - name: Коммит результата
+        run: |
+          git config user.name "seedwave-bot"
+          git config user.email "actions@github.com"
+          git add data/tenders_madeira.json data/tenders_meta.json
+          git diff --cached --quiet && echo "Без изменений" && exit 0
+          git commit -m "data: обновление тендеров Мадейры ($(date -u +%Y-%m-%d))"
+          git push
