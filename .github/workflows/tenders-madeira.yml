@@ -1,11 +1,15 @@
 name: Tenders Madeira — замер и обновление данных
 
+# Вычислительный слой SeedWave: тяжёлые выгрузки считаются здесь, а не в Make.
+# Make остаётся на сигналах и малых данных.
+
 on:
   push:
     paths:
       - '.github/workflows/tenders-madeira.yml'
+      - 'scripts/fetch_tenders.py'
   schedule:
-    - cron: '0 6 3,17 * *'   # 3-го и 17-го числа в 06:00 UTC (данные IMPIC обновляются раз в 2 недели)
+    - cron: '0 6 3,17 * *'   # 3-го и 17-го в 06:00 UTC — в такт обновлениям IMPIC (раз в 2 недели)
   workflow_dispatch:
 
 permissions:
@@ -14,10 +18,11 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
-      - name: Запуск замера
+      - name: Замер тендеров Мадейры
         run: python3 scripts/fetch_tenders.py
 
       - name: Коммит результата
@@ -26,5 +31,5 @@ jobs:
           git config user.email "actions@github.com"
           git add data/tenders_madeira.json data/tenders_meta.json
           git diff --cached --quiet && echo "Без изменений" && exit 0
-          git commit -m "data: обновление тендеров Мадейры ($(date -u +%Y-%m-%d))"
+          git commit -m "data: тендеры Мадейры, обновление $(date -u +%Y-%m-%d)"
           git push
