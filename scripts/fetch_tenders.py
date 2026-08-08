@@ -59,7 +59,16 @@ def txt(rec, key):
     return str(rec.get(key, "") or "")
 
 
+# Материковые и азорские тёзки мадейрских топонимов
+RE_FALSE = re.compile(
+    r"da Beira|Beira Baixa|Escudeiros e Penso|Santa Cruz da Graciosa|"
+    r"Calheta \(A[çc]ores\)|S[ãa]o Vicente da Beira", re.I)
+
+
 def is_madeira(rec):
+    blob = txt(rec, "adjudicante") + " " + txt(rec, "NUTs") + " " + txt(rec, "localExecucao")
+    if RE_FALSE.search(blob) and not RE_NUTS.search(txt(rec, "NUTs")):
+        return False
     if RE_NUTS.search(txt(rec, "NUTs")):
         return True
     if RE_REGIAO.search(txt(rec, "localExecucao")):
