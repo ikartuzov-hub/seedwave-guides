@@ -1,134 +1,289 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
-  "files": [
-    {
-      "name": "Contratos2026.json",
-      "records": 143555
-    }
+  "license": "Domínio Público (dados.gov.pt / IMPIC)",
+  "total_records_pt": 143555,
+  "madeira_records": 3244,
+  "madeira_construction": 155,
+  "sum_madeira_eur": 15826696778.0,
+  "sum_construction_eur": 4128781319.0,
+  "by_tipo_contrato": [
+    [
+      "['Aquisição de bens móveis']",
+      1847
+    ],
+    [
+      "['Aquisição de serviços']",
+      1179
+    ],
+    [
+      "['Empreitadas de obras públicas']",
+      155
+    ],
+    [
+      "['Aquisição de bens móveis', 'Aquisição de serviços']",
+      36
+    ],
+    [
+      "['Locação de bens móveis']",
+      22
+    ],
+    [
+      "['Concessão de serviços públicos']",
+      3
+    ],
+    [
+      "['Aquisição de serviços', 'Locação de bens móveis']",
+      1
+    ],
+    [
+      "['Outros']",
+      1
+    ]
   ],
-  "total_records": 143555,
-  "madeira_records": 36020,
-  "sample_keys": [
-    "Ano",
-    "ContratEcologico",
-    "CritMateriais",
-    "DescrAcordoQuadro",
-    "Lotes",
-    "NUTs",
-    "Observacoes",
-    "PrecoTotalEfetivo",
-    "ProcedimentoCentralizado",
-    "TipoAnuncio",
-    "TipoCriterioAdjudicacao",
-    "adjudicante",
-    "adjudicatarioPMEs",
-    "adjudicatarios",
-    "concorrentes",
-    "cpv",
-    "dataCelebracaoContrato",
-    "dataDecisaoAdjudicacao",
-    "dataFechoContrato",
-    "dataPublicacao",
-    "descContrato",
-    "fundamentAjusteDireto",
-    "fundamentacao",
-    "idINCM",
-    "idcontrato",
-    "idprocedimento",
-    "justifNReducEscrContrato",
-    "linkPecasProc",
-    "localExecucao",
-    "nAnuncio",
-    "numAcordoQuadro",
-    "objectoContrato",
-    "prazoExecucao",
-    "precoBaseProcedimento",
-    "precoContratual",
-    "regime",
-    "tipoContrato",
-    "tipoFimContrato",
-    "tipoprocedimento"
+  "by_tipo_procedimento": [
+    [
+      "Ajuste Direto Regime Geral",
+      984
+    ],
+    [
+      "Consulta Prévia",
+      886
+    ],
+    [
+      "Concurso público",
+      615
+    ],
+    [
+      "Ao abrigo de acordo-quadro (art.º 259.º)",
+      384
+    ],
+    [
+      "Ao abrigo de acordo-quadro (art.º 258.º)",
+      200
+    ],
+    [
+      "Contratação excluída II",
+      151
+    ],
+    [
+      "Concurso limitado por prévia qualificação",
+      9
+    ],
+    [
+      "Ajuste direto simplificado ao abrigo da Lei n.º 30/2021, de ",
+      7
+    ],
+    [
+      "Consulta Prévia Simplificada",
+      5
+    ],
+    [
+      "Concurso público simplificado",
+      1
+    ]
   ],
-  "top_construction_contractors_madeira": [
+  "top_contractors_by_value": [
     [
-      "514086335 - LÁLLIO ENGENHARIA, S.A.",
-      131
+      "510287433 - Gáslink Gás Natural S.A.",
+      1375436160.0
     ],
     [
-      "510758070 - AMYDRA CONSTRUÇÕES LDA.",
-      114
+      "503103616 - Galp Gás Natural S.A.",
+      1375436160.0
     ],
     [
-      "506958680 - Construções Mota &amp; Brandão, Lda",
-      25
+      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
+      1283889992.0
     ],
     [
-      "504965140 - VAZ &amp; BARBOSA, LDA",
-      20
+      "512029393 - SATA Internacional - Azores Airlines, S.A.",
+      624997220.0
     ],
     [
-      "503439800 - Cimontubo - Tubagens e Soldadura, Lda",
-      12
-    ],
-    [
-      "511123159 - Obracentimetro - Construção Civil, Lda.",
-      12
-    ],
-    [
-      "511104642 - RIM - Engenharia e Construções, SA",
-      11
-    ],
-    [
-      "514129000 - DIZconstrução Lda",
-      10
-    ],
-    [
-      "503451541 - Restradas - Revitalização de Estradas do Norte, Lda",
-      10
-    ],
-    [
-      "507468945 - Lousamaia, Lda",
-      8
-    ],
-    [
-      "505661349 - Construções Rochafiel, Lda",
-      8
-    ],
-    [
-      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      8
-    ],
-    [
-      "503089150 - Construções Leite de Almeida &amp; Filhos Lda",
-      7
-    ],
-    [
-      "511023928 - Saúl &amp; Filhos, Lda",
-      7
-    ],
-    [
-      "500246815 - Setronix - Sociedade de Estudos e Empreendimentos de Telecomunicação, SA",
-      7
-    ],
-    [
-      "509723560 - WIKIBUILD, S.A.",
-      7
+      "500278725 - TAP PORTUGAL",
+      624997220.0
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      6
+      486815089.0
     ],
     [
-      "511031181 - Sales, Faria &amp; Andrade- Sociedade de Construções Ldª",
-      5
+      "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
+      476039998.0
+    ],
+    [
+      "509770118 - ASCENDI IGI, INOVAÇAO E GESTAO DE INFRA-ESTRUTURAS, S.A.",
+      469500000.0
+    ],
+    [
+      "508677467 - ASCENDI - SERVIÇOS DE ASSESSORIA, GESTÃO E OPERAÇÃO, S.A.",
+      469500000.0
+    ],
+    [
+      "518007030 - Horizon Infra Core, Unipessoal, Lda.",
+      469500000.0
+    ],
+    [
+      "500031975 - Hitachi Energy Portugal, S.A.",
+      448514794.0
+    ],
+    [
+      "517646684 - Teixeira Duarte - Madeira, S.A.",
+      439339998.0
+    ],
+    [
+      "511104642 - RIM - Engenharia e Construções, SA",
+      389405215.0
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      5
+      311867660.0
     ],
     [
-      "509074472 - QUESTÃO D'AREA, LDA",
-      5
+      "511143834 - Farrobo, Soc. de Construções, S.A.",
+      289970000.0
+    ],
+    [
+      "505684322 - DUAFAR-Construção Civil e Obras Públicas, Lda.",
+      206499997.0
+    ],
+    [
+      "511021380 - MC-COMPUTADORES,S.A.",
+      194303510.0
+    ],
+    [
+      "500233810 - ROCHE FARMACEUTICA QUIMICA, LDA",
+      181789034.0
+    ],
+    [
+      "500221103 - Porto Editora, S.A.",
+      173659561.0
+    ],
+    [
+      "507011724 - Ronsegur, Rondas e Segurança, S.A",
+      173382411.0
+    ],
+    [
+      "503604704 - GILEAD SCIENCES, LDA.",
+      165346552.0
+    ],
+    [
+      "500246963 - Repsol Portuguesa Ldª",
+      164068380.0
+    ],
+    [
+      "511237219 - Tecnaco - Técnicos de Construção, S.A.",
+      152667030.0
+    ],
+    [
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      149582118.0
+    ],
+    [
+      "511123159 - Obracentimetro - Construção Civil, Lda.",
+      148256610.0
+    ]
+  ],
+  "top_construction_by_value": [
+    [
+      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
+      1283889992.0
+    ],
+    [
+      "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
+      484941084.0
+    ],
+    [
+      "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
+      476039998.0
+    ],
+    [
+      "517646684 - Teixeira Duarte - Madeira, S.A.",
+      439339998.0
+    ],
+    [
+      "511104642 - RIM - Engenharia e Construções, SA",
+      389405215.0
+    ],
+    [
+      "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
+      310872000.0
+    ],
+    [
+      "511143834 - Farrobo, Soc. de Construções, S.A.",
+      289970000.0
+    ],
+    [
+      "505684322 - DUAFAR-Construção Civil e Obras Públicas, Lda.",
+      206499997.0
+    ],
+    [
+      "511237219 - Tecnaco - Técnicos de Construção, S.A.",
+      152667030.0
+    ],
+    [
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      147613118.0
+    ],
+    [
+      "511123159 - Obracentimetro - Construção Civil, Lda.",
+      125423770.0
+    ],
+    [
+      "511023928 - Saúl &amp; Filhos, Lda",
+      119605228.0
+    ],
+    [
+      "511011202 - ERUMAD - Engenharia e Reabilitação Urbana, Lda",
+      78349148.0
+    ],
+    [
+      "510739105 - Perfiltalento Unipessoal, Lda.",
+      56158998.0
+    ],
+    [
+      "515662712 - Flamingobalcony Engenharia e Construções, Lda",
+      55300004.0
+    ],
+    [
+      "511277709 - FACTORENERGIA, TECNOLOGIAS DE ENERGIA E AMBIENTE, LDA",
+      48034014.0
+    ],
+    [
+      "511044852 - Paulo Mendes &amp; Correia, Lda",
+      40520125.0
+    ],
+    [
+      "515036773 - GRADUALPARALLEL - LDA",
+      38999500.0
+    ],
+    [
+      "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
+      37500000.0
+    ],
+    [
+      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
+      28097182.0
+    ],
+    [
+      "502925140 - Pedro Moreira &amp; C.ª Lda.",
+      27704049.0
+    ],
+    [
+      "511143834 - FARROBO, Sociedade de Construções, S. A",
+      27103608.0
+    ],
+    [
+      "513156852 - Critériotangente - Construções, Lda",
+      26935735.0
+    ],
+    [
+      "511031181 - Sales, Faria &amp; Andrade- Sociedade de Construções Ldª",
+      25690750.0
+    ],
+    [
+      "515662712 - FLAMINGOBALCONY ENGENHARIA E CONSTRUÇÕES LDA",
+      24401440.0
     ]
   ]
 }
