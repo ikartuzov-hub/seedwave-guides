@@ -2,10 +2,10 @@
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
   "total_records_pt": 143555,
-  "madeira_records": 3244,
-  "madeira_construction": 155,
-  "sum_madeira_eur": 592693905.62,
-  "sum_construction_eur": 103042955.78,
+  "madeira_records": 3237,
+  "madeira_construction": 152,
+  "sum_madeira_eur": 590100232.33,
+  "sum_construction_eur": 100574563.69,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
@@ -13,11 +13,11 @@
     ],
     [
       "['Aquisição de serviços']",
-      1179
+      1175
     ],
     [
       "['Empreitadas de obras públicas']",
-      155
+      152
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
@@ -43,15 +43,15 @@
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      984
+      983
     ],
     [
       "Consulta Prévia",
-      886
+      882
     ],
     [
       "Concurso público",
-      615
+      614
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
@@ -75,7 +75,7 @@
     ],
     [
       "Consulta Prévia Simplificada",
-      5
+      4
     ],
     [
       "Concurso público simplificado",
@@ -234,10 +234,6 @@
       2186369.67
     ],
     [
-      "505684322 - DUAFAR-Construção Civil e Obras Públicas, Lda.",
-      2064999.97
-    ],
-    [
       "515662712 - Flamingobalcony Engenharia e Construções, Lda",
       1480000.04
     ],
@@ -284,6 +280,10 @@
     [
       "511262175 - Semax-Sistemas Eletrónicos e Manutenção, Lda.",
       489794.0
+    ],
+    [
+      "511277709 - FACTORENERGIA, TECNOLOGIAS DE ENERGIA E AMBIENTE, LDA",
+      480340.14
     ]
   ]
 }
