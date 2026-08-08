@@ -70,9 +70,14 @@ def is_madeira(rec):
 
 
 def money(v):
-    """'1.234.567,89 €' -> float"""
-    s = str(v or "").replace("€", "").replace("\xa0", "").strip()
-    s = s.replace(".", "").replace(",", ".")
+    """Цена приходит числом (9000.0); строковый формат '1.234.567,89 €' — запасной путь."""
+    if isinstance(v, (int, float)):
+        return float(v)
+    s = str(v or "").replace("\u20ac", "").replace("\xa0", "").replace(" ", "").strip()
+    if not s:
+        return 0.0
+    if "," in s:                      # европейский формат: точка = тысячи
+        s = s.replace(".", "").replace(",", ".")
     try:
         return float(s)
     except ValueError:
