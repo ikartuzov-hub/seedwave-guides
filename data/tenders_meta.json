@@ -4,8 +4,8 @@
   "total_records_pt": 143555,
   "madeira_records": 3244,
   "madeira_construction": 155,
-  "sum_madeira_eur": 15826696778.0,
-  "sum_construction_eur": 4128781319.0,
+  "sum_madeira_eur": 592693905.62,
+  "sum_construction_eur": 103042955.78,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
@@ -85,205 +85,205 @@
   "top_contractors_by_value": [
     [
       "510287433 - Gáslink Gás Natural S.A.",
-      1375436160.0
+      137543616.0
     ],
     [
       "503103616 - Galp Gás Natural S.A.",
-      1375436160.0
-    ],
-    [
-      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
-      1283889992.0
+      137543616.0
     ],
     [
       "512029393 - SATA Internacional - Azores Airlines, S.A.",
-      624997220.0
+      62499722.0
     ],
     [
       "500278725 - TAP PORTUGAL",
-      624997220.0
-    ],
-    [
-      "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      486815089.0
-    ],
-    [
-      "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
-      476039998.0
+      62499722.0
     ],
     [
       "509770118 - ASCENDI IGI, INOVAÇAO E GESTAO DE INFRA-ESTRUTURAS, S.A.",
-      469500000.0
+      46950000.0
     ],
     [
       "508677467 - ASCENDI - SERVIÇOS DE ASSESSORIA, GESTÃO E OPERAÇÃO, S.A.",
-      469500000.0
+      46950000.0
     ],
     [
       "518007030 - Horizon Infra Core, Unipessoal, Lda.",
-      469500000.0
-    ],
-    [
-      "500031975 - Hitachi Energy Portugal, S.A.",
-      448514794.0
-    ],
-    [
-      "517646684 - Teixeira Duarte - Madeira, S.A.",
-      439339998.0
-    ],
-    [
-      "511104642 - RIM - Engenharia e Construções, SA",
-      389405215.0
+      46950000.0
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      311867660.0
+      31186766.0
+    ],
+    [
+      "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
+      31156076.11
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
-      289970000.0
-    ],
-    [
-      "505684322 - DUAFAR-Construção Civil e Obras Públicas, Lda.",
-      206499997.0
-    ],
-    [
-      "511021380 - MC-COMPUTADORES,S.A.",
-      194303510.0
-    ],
-    [
-      "500233810 - ROCHE FARMACEUTICA QUIMICA, LDA",
-      181789034.0
-    ],
-    [
-      "500221103 - Porto Editora, S.A.",
-      173659561.0
-    ],
-    [
-      "507011724 - Ronsegur, Rondas e Segurança, S.A",
-      173382411.0
-    ],
-    [
-      "503604704 - GILEAD SCIENCES, LDA.",
-      165346552.0
+      28997000.0
     ],
     [
       "500246963 - Repsol Portuguesa Ldª",
-      164068380.0
+      16406838.0
     ],
     [
-      "511237219 - Tecnaco - Técnicos de Construção, S.A.",
-      152667030.0
+      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
+      14997999.92
+    ],
+    [
+      "503160300 - NOVA EXPRESSÃO- Planeamento de Meios e Publicidade , S.A.",
+      12205200.0
+    ],
+    [
+      "- - Making Science Digital Marketing, SL",
+      12205200.0
+    ],
+    [
+      "511104642 - RIM - Engenharia e Construções, SA",
+      11136591.28
+    ],
+    [
+      "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
+      8714999.98
+    ],
+    [
+      "517646684 - Teixeira Duarte - Madeira, S.A.",
+      5044999.98
+    ],
+    [
+      "500031975 - Hitachi Energy Portugal, S.A.",
+      4485147.94
+    ],
+    [
+      "501721037 - IMI - Imagens Médicas Integradas, S.A.",
+      4104930.0
+    ],
+    [
+      "511224826 -  OPERTRANS – DISTRIBUIÇÃO E LOGÍSTICA, LDA",
+      3968857.0
+    ],
+    [
+      "511011911 - GSLINES - Transportes Marítimos Lda.",
+      3933707.0
+    ],
+    [
+      "515036773 - GRADUALPARALLEL - LDA",
+      3899950.0
+    ],
+    [
+      "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
+      3750000.0
     ],
     [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      149582118.0
+      3310005.45
     ],
     [
-      "511123159 - Obracentimetro - Construção Civil, Lda.",
-      148256610.0
+      "502926287 - WARTSILA PORTUGAL, S.A.",
+      3211000.0
     ]
   ],
   "top_construction_by_value": [
     [
-      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
-      1283889992.0
-    ],
-    [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      484941084.0
-    ],
-    [
-      "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
-      476039998.0
-    ],
-    [
-      "517646684 - Teixeira Duarte - Madeira, S.A.",
-      439339998.0
-    ],
-    [
-      "511104642 - RIM - Engenharia e Construções, SA",
-      389405215.0
+      31137336.06
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      310872000.0
+      31087200.0
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
-      289970000.0
+      28997000.0
     ],
     [
-      "505684322 - DUAFAR-Construção Civil e Obras Públicas, Lda.",
-      206499997.0
+      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
+      14997999.92
     ],
     [
-      "511237219 - Tecnaco - Técnicos de Construção, S.A.",
-      152667030.0
+      "511104642 - RIM - Engenharia e Construções, SA",
+      11136591.28
     ],
     [
-      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      147613118.0
+      "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
+      8714999.98
     ],
     [
-      "511123159 - Obracentimetro - Construção Civil, Lda.",
-      125423770.0
-    ],
-    [
-      "511023928 - Saúl &amp; Filhos, Lda",
-      119605228.0
-    ],
-    [
-      "511011202 - ERUMAD - Engenharia e Reabilitação Urbana, Lda",
-      78349148.0
-    ],
-    [
-      "510739105 - Perfiltalento Unipessoal, Lda.",
-      56158998.0
-    ],
-    [
-      "515662712 - Flamingobalcony Engenharia e Construções, Lda",
-      55300004.0
-    ],
-    [
-      "511277709 - FACTORENERGIA, TECNOLOGIAS DE ENERGIA E AMBIENTE, LDA",
-      48034014.0
-    ],
-    [
-      "511044852 - Paulo Mendes &amp; Correia, Lda",
-      40520125.0
+      "517646684 - Teixeira Duarte - Madeira, S.A.",
+      5044999.98
     ],
     [
       "515036773 - GRADUALPARALLEL - LDA",
-      38999500.0
+      3899950.0
     ],
     [
       "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
-      37500000.0
+      3750000.0
     ],
     [
-      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
-      28097182.0
-    ],
-    [
-      "502925140 - Pedro Moreira &amp; C.ª Lda.",
-      27704049.0
-    ],
-    [
-      "511143834 - FARROBO, Sociedade de Construções, S. A",
-      27103608.0
-    ],
-    [
-      "513156852 - Critériotangente - Construções, Lda",
-      26935735.0
-    ],
-    [
-      "511031181 - Sales, Faria &amp; Andrade- Sociedade de Construções Ldª",
-      25690750.0
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      3113105.45
     ],
     [
       "515662712 - FLAMINGOBALCONY ENGENHARIA E CONSTRUÇÕES LDA",
-      24401440.0
+      2440144.0
+    ],
+    [
+      "511237219 - Tecnaco - Técnicos de Construção, S.A.",
+      2186369.67
+    ],
+    [
+      "505684322 - DUAFAR-Construção Civil e Obras Públicas, Lda.",
+      2064999.97
+    ],
+    [
+      "515662712 - Flamingobalcony Engenharia e Construções, Lda",
+      1480000.04
+    ],
+    [
+      "511123159 - Obracentimetro - Construção Civil, Lda.",
+      1309809.55
+    ],
+    [
+      "511023928 - Saúl &amp; Filhos, Lda",
+      1229212.78
+    ],
+    [
+      "511011202 - ERUMAD - Engenharia e Reabilitação Urbana, Lda",
+      1183990.58
+    ],
+    [
+      "515346993 - TRAÇOS HISTÓRICOS - UNIPESSOAL LDA",
+      1151947.5
+    ],
+    [
+      "517322846 - TREEFOR Engenharia Lda.",
+      958411.5
+    ],
+    [
+      "511099177 - TECNOVIA - MADEIRA, SOCIEDADE DE EMPREITADAS, S.A.",
+      889000.0
+    ],
+    [
+      "511031181 - Sales, Faria &amp; Andrade- Sociedade de Construções Ldª",
+      805588.45
+    ],
+    [
+      "511202377 - MANUEL CANADA CONSTRUÇÕES, LDA",
+      600660.0
+    ],
+    [
+      "510739105 - Perfiltalento Unipessoal, Lda.",
+      561589.98
+    ],
+    [
+      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
+      560519.47
+    ],
+    [
+      "511262175 - Semax-Sistemas Eletrónicos e Manutenção, Lda.",
+      489794.0
     ]
   ]
 }
