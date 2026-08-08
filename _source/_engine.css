@@ -92,3 +92,19 @@ ol{padding-left:20px;margin:0 0 14px}
 .langpop a{display:block;width:100%;text-align:left;background:none;border:0;color:var(--ink);padding:9px 12px;border-radius:8px;font-size:14px;text-decoration:none}
 .langpop a.active{color:var(--accent);font-weight:700}
 .langpop a:hover{background:var(--bg)}
+
+/* хроника авизо */
+.updates{margin:32px 0 0;padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.updates h2{font-size:16px;margin:0 0 10px}
+.updates ul{margin:0;padding:0 0 0 18px;font-size:15px;line-height:1.5}
+.updates li{margin:0 0 8px}
+.updates time{color:var(--muted);font-variant-numeric:tabular-nums;margin-right:6px}
+.updates p{margin:12px 0 0;font-size:15px}
+.tl{list-style:none;margin:24px 0 0;padding:0}
+.tl-item{border-left:2px solid var(--line);padding:0 0 22px 18px;position:relative}
+.tl-item::before{content:"";position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.tl-item time{color:var(--muted);font-variant-numeric:tabular-nums;font-size:14px}
+.tl-kind{margin-left:8px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--accent)}
+.tl-item h3{font-size:17px;margin:6px 0 4px}
+.tl-item p{margin:0 0 6px;font-size:15px;line-height:1.5}
+.tl-meta{color:var(--muted);font-size:14px}

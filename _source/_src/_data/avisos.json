@@ -1,0 +1,35 @@
+{
+  "_comment": "Хроника авизо. ПРАВИЛО: сюда попадает только Ур.1 — есть текст авизо или постановление JORAM. Анонсы без авизо (контур B сенсора) НЕ публикуются. Новая запись = один объект в начало массива. Движок не трогаем.",
+  "entries": [
+    {
+      "date": "2026-07-25",
+      "program": "SIEED",
+      "kind": "update",
+      "source": "IDE, IP-RAM",
+      "sourceUrl": "https://madeira.portugal2030.pt",
+      "link": "/sieed-madeira/",
+      "text": {
+        "pt": "Grelha de taxas confirmada: 50% para PME fora de edifícios; nas intervenções no edifício, base de 30% com majorações até 65%. Despesa elegível mínima de 50.000 €.",
+        "en": "Rate grid confirmed: 50% for SMEs outside buildings; for works on the building itself, a 30% base with top-ups reaching 65%. Minimum eligible spend €50,000.",
+        "es": "Rejilla de tasas confirmada: 50% para pymes fuera de edificios; en intervenciones en el propio edificio, base del 30% con incrementos hasta el 65%. Gasto elegible mínimo de 50.000 €.",
+        "ru": "Подтверждена сетка ставок: 50% для МСП вне зданий; при работах в самом здании база 30% с надбавками до 65%. Минимальные приемлемые расходы — 50 000 €.",
+        "de": "Fördersatz-Raster bestätigt: 50% für KMU außerhalb von Gebäuden; bei Eingriffen am Gebäude selbst 30% Basis mit Aufschlägen bis 65%. Mindestens 50.000 € förderfähige Ausgaben."
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "program": "SIEED — aviso M2030-2026-21",
+      "kind": "open",
+      "source": "Madeira 2030",
+      "sourceUrl": "https://madeira.portugal2030.pt",
+      "link": "/sieed-madeira/",
+      "text": {
+        "pt": "Abertura de candidaturas ao Sistema de Incentivos à Eficiência Energética e Descarbonização. Prazo: 10 de setembro de 2026, 17h00. Até 300.000 € por projeto — 450.000 € no turismo.",
+        "en": "Applications open for the Energy Efficiency and Decarbonisation incentive scheme. Deadline: 10 September 2026, 17:00. Up to €300,000 per project — €450,000 in tourism.",
+        "es": "Apertura de candidaturas al Sistema de Incentivos a la Eficiencia Energética y Descarbonización. Plazo: 10 de septiembre de 2026, 17:00. Hasta 300.000 € por proyecto — 450.000 € en turismo.",
+        "ru": "Открыт приём заявок в Систему стимулов энергоэффективности и декарбонизации. Срок — 10 сентября 2026, 17:00. До 300 000 € на проект, до 450 000 € в туризме.",
+        "de": "Antragsfenster für das Anreizsystem für Energieeffizienz und Dekarbonisierung geöffnet. Frist: 10. September 2026, 17:00 Uhr. Bis 300.000 € je Projekt — 450.000 € im Tourismus."
+      }
+    }
+  ]
+}
