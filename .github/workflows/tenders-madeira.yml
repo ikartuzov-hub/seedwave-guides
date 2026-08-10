@@ -1,7 +1,7 @@
 name: Tenders Madeira — замер и обновление данных
 
 # Вычислительный слой SeedWave: тяжёлые выгрузки считаются здесь, а не в Make.
-# Make остаётся на сигналах и малых данных.
+# Make остаётся на сигналах — одна операция на уведомление.
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
       - '.github/workflows/tenders-madeira.yml'
       - 'scripts/fetch_tenders.py'
   schedule:
-    - cron: '0 6 3,17 * *'   # 3-го и 17-го в 06:00 UTC — в такт обновлениям IMPIC (раз в 2 недели)
+    - cron: '0 6 3,17 * *'   # 3-го и 17-го в 06:00 UTC — в такт обновлениям IMPIC
   workflow_dispatch:
 
 permissions:
@@ -26,10 +26,24 @@ jobs:
         run: python3 scripts/fetch_tenders.py
 
       - name: Коммит результата
+        id: commit
         run: |
           git config user.name "seedwave-bot"
           git config user.email "actions@github.com"
           git add data/tenders_madeira.json data/tenders_meta.json
-          git diff --cached --quiet && echo "Без изменений" && exit 0
-          git commit -m "data: тендеры Мадейры, обновление $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Без изменений"
+          else
+            git commit -m "data: тендеры Мадейры, обновление $(date -u +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Уведомление в Telegram
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          SUMMARY=$(cat notify_summary.txt)
+          curl -s -X POST "https://hook.eu1.make.com/7ro9ullgwkm3r13vgjpk6me85rtx4l5s" \
+            -H "Content-Type: application/json" \
+            --data "$(python3 -c "import json,sys;print(json.dumps({'summary':open('notify_summary.txt',encoding='utf-8').read()}))")"
