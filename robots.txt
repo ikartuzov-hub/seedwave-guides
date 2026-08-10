@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://apoios.seedwave.dev/sitemap.xml
+Sitemap: https://apoios.seedwave.pt/sitemap.xml

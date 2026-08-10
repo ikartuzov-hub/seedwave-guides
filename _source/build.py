@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Сборка серии apoios.seedwave.dev по правилу трёх слоёв.
+Сборка серии apoios.seedwave.pt по правилу трёх слоёв.
 
   Слой 1 — движок:  _engine.html + _engine.css   (про язык и контент не знает)
   Слой 2/3 — словари: _src/{slug}/{lang}.json    (весь текст страницы, по одному файлу на язык)
@@ -13,7 +13,7 @@
 """
 import json, os, re, shutil, sys
 
-SITE   = "https://apoios.seedwave.dev"
+SITE   = "https://apoios.seedwave.pt"
 LANGS  = ["pt", "en", "es", "ru", "de"]          # первый — канонический
 LOCALE = {"pt": "pt_PT", "en": "en_GB", "es": "es_ES", "ru": "ru_RU", "de": "de_DE"}
 HREF   = {"pt": "pt-PT", "en": "en",    "es": "es",    "ru": "ru",    "de": "de"}

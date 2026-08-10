@@ -1,185 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://apoios.seedwave.dev/</loc></url>
-  <url><loc>https://apoios.seedwave.dev/igor/</loc></url>
+  <url><loc>https://apoios.seedwave.pt/</loc></url>
+  <url><loc>https://apoios.seedwave.pt/igor/</loc></url>
   <url>
-    <loc>https://apoios.seedwave.dev/cronologia/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cronologia/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cronologia/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cronologia/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cronologia/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cronologia/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cronologia/"/>
+    <loc>https://apoios.seedwave.pt/cronologia/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cronologia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cronologia/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cronologia/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cronologia/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cronologia/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cronologia/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cronologia/en/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cronologia/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cronologia/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cronologia/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cronologia/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cronologia/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cronologia/"/>
+    <loc>https://apoios.seedwave.pt/cronologia/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cronologia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cronologia/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cronologia/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cronologia/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cronologia/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cronologia/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cronologia/es/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cronologia/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cronologia/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cronologia/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cronologia/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cronologia/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cronologia/"/>
+    <loc>https://apoios.seedwave.pt/cronologia/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cronologia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cronologia/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cronologia/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cronologia/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cronologia/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cronologia/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cronologia/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cronologia/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cronologia/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cronologia/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cronologia/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cronologia/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cronologia/"/>
+    <loc>https://apoios.seedwave.pt/cronologia/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cronologia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cronologia/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cronologia/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cronologia/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cronologia/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cronologia/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cronologia/de/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cronologia/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cronologia/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cronologia/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cronologia/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cronologia/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cronologia/"/>
+    <loc>https://apoios.seedwave.pt/cronologia/de/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cronologia/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cronologia/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cronologia/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cronologia/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cronologia/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cronologia/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/restauracao-madeira/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/restauracao-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/restauracao-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/restauracao-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/restauracao-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
+    <loc>https://apoios.seedwave.pt/restauracao-madeira/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/restauracao-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/restauracao-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/restauracao-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/restauracao-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/restauracao-madeira/en/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/restauracao-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/restauracao-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/restauracao-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/restauracao-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
+    <loc>https://apoios.seedwave.pt/restauracao-madeira/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/restauracao-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/restauracao-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/restauracao-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/restauracao-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/restauracao-madeira/es/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/restauracao-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/restauracao-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/restauracao-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/restauracao-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
+    <loc>https://apoios.seedwave.pt/restauracao-madeira/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/restauracao-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/restauracao-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/restauracao-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/restauracao-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/restauracao-madeira/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/restauracao-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/restauracao-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/restauracao-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/restauracao-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
+    <loc>https://apoios.seedwave.pt/restauracao-madeira/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/restauracao-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/restauracao-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/restauracao-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/restauracao-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/restauracao-madeira/de/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/restauracao-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/restauracao-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/restauracao-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/restauracao-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/restauracao-madeira/"/>
+    <loc>https://apoios.seedwave.pt/restauracao-madeira/de/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/restauracao-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/restauracao-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/restauracao-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/restauracao-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/restauracao-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/sieed-madeira/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/sieed-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/sieed-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/sieed-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/sieed-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/sieed-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/sieed-madeira/"/>
+    <loc>https://apoios.seedwave.pt/sieed-madeira/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/sieed-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/sieed-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/sieed-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/sieed-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/sieed-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/sieed-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/sieed-madeira/en/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/sieed-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/sieed-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/sieed-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/sieed-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/sieed-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/sieed-madeira/"/>
+    <loc>https://apoios.seedwave.pt/sieed-madeira/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/sieed-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/sieed-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/sieed-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/sieed-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/sieed-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/sieed-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/sieed-madeira/es/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/sieed-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/sieed-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/sieed-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/sieed-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/sieed-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/sieed-madeira/"/>
+    <loc>https://apoios.seedwave.pt/sieed-madeira/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/sieed-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/sieed-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/sieed-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/sieed-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/sieed-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/sieed-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/sieed-madeira/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/sieed-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/sieed-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/sieed-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/sieed-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/sieed-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/sieed-madeira/"/>
+    <loc>https://apoios.seedwave.pt/sieed-madeira/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/sieed-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/sieed-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/sieed-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/sieed-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/sieed-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/sieed-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/sieed-madeira/de/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/sieed-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/sieed-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/sieed-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/sieed-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/sieed-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/sieed-madeira/"/>
+    <loc>https://apoios.seedwave.pt/sieed-madeira/de/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/sieed-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/sieed-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/sieed-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/sieed-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/sieed-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/sieed-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cafe-digital-madeira/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cafe-digital-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cafe-digital-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cafe-digital-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cafe-digital-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
+    <loc>https://apoios.seedwave.pt/cafe-digital-madeira/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cafe-digital-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cafe-digital-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cafe-digital-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cafe-digital-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cafe-digital-madeira/en/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cafe-digital-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cafe-digital-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cafe-digital-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cafe-digital-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
+    <loc>https://apoios.seedwave.pt/cafe-digital-madeira/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cafe-digital-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cafe-digital-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cafe-digital-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cafe-digital-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cafe-digital-madeira/es/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cafe-digital-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cafe-digital-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cafe-digital-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cafe-digital-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
+    <loc>https://apoios.seedwave.pt/cafe-digital-madeira/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cafe-digital-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cafe-digital-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cafe-digital-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cafe-digital-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cafe-digital-madeira/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cafe-digital-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cafe-digital-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cafe-digital-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cafe-digital-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
+    <loc>https://apoios.seedwave.pt/cafe-digital-madeira/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cafe-digital-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cafe-digital-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cafe-digital-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cafe-digital-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
   </url>
   <url>
-    <loc>https://apoios.seedwave.dev/cafe-digital-madeira/de/</loc>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.dev/cafe-digital-madeira/en/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.dev/cafe-digital-madeira/es/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.dev/cafe-digital-madeira/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.dev/cafe-digital-madeira/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.dev/cafe-digital-madeira/"/>
+    <loc>https://apoios.seedwave.pt/cafe-digital-madeira/de/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/cafe-digital-madeira/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/cafe-digital-madeira/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/cafe-digital-madeira/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/cafe-digital-madeira/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/cafe-digital-madeira/"/>
   </url>
 </urlset>
