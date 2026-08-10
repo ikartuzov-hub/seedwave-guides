@@ -1,31 +1,31 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
-  "total_records_pt": 143555,
-  "madeira_records": 3237,
-  "madeira_construction": 152,
-  "sum_madeira_eur": 590100232.33,
-  "sum_construction_eur": 100574563.69,
+  "total_records_pt": 149021,
+  "madeira_records": 3399,
+  "madeira_construction": 158,
+  "sum_madeira_eur": 598815025.77,
+  "sum_construction_eur": 103248226.58,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
-      1847
+      1950
     ],
     [
       "['Aquisição de serviços']",
-      1175
+      1225
     ],
     [
       "['Empreitadas de obras públicas']",
-      152
+      158
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
-      36
+      38
     ],
     [
       "['Locação de bens móveis']",
-      22
+      23
     ],
     [
       "['Concessão de serviços públicos']",
@@ -43,27 +43,27 @@
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      983
+      1029
     ],
     [
       "Consulta Prévia",
-      882
+      944
     ],
     [
       "Concurso público",
-      614
+      650
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
-      384
+      395
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 258.º)",
-      200
+      205
     ],
     [
       "Contratação excluída II",
-      151
+      153
     ],
     [
       "Concurso limitado por prévia qualificação",
@@ -113,7 +113,7 @@
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      31186766.0
+      32561765.99
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
@@ -160,6 +160,10 @@
       4104930.0
     ],
     [
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      3983208.98
+    ],
+    [
       "511224826 -  OPERTRANS – DISTRIBUIÇÃO E LOGÍSTICA, LDA",
       3968857.0
     ],
@@ -176,22 +180,18 @@
       3750000.0
     ],
     [
-      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      3310005.45
-    ],
-    [
       "502926287 - WARTSILA PORTUGAL, S.A.",
       3211000.0
     ]
   ],
   "top_construction_by_value": [
     [
-      "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      31137336.06
+      "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
+      32462199.99
     ],
     [
-      "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      31087200.0
+      "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
+      31137336.06
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
@@ -218,12 +218,12 @@
       3899950.0
     ],
     [
-      "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
-      3750000.0
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      3786308.98
     ],
     [
-      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      3113105.45
+      "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
+      3750000.0
     ],
     [
       "515662712 - FLAMINGOBALCONY ENGENHARIA E CONSTRUÇÕES LDA",
@@ -270,6 +270,10 @@
       600660.0
     ],
     [
+      "511023723 - AFAVIAS - Engenharia e Construções, S. A.",
+      575000.0
+    ],
+    [
       "510739105 - Perfiltalento Unipessoal, Lda.",
       561589.98
     ],
@@ -280,10 +284,6 @@
     [
       "511262175 - Semax-Sistemas Eletrónicos e Manutenção, Lda.",
       489794.0
-    ],
-    [
-      "511277709 - FACTORENERGIA, TECNOLOGIAS DE ENERGIA E AMBIENTE, LDA",
-      480340.14
     ]
   ]
 }
