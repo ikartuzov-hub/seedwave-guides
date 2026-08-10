@@ -154,6 +154,15 @@ def main():
     size = os.path.getsize(f"{OUT_DIR}/tenders_madeira.json") / 1e6
     print(f"\nМадейра: {len(mad)} из {len(all_recs)} | стройка: {len(constr)} | файл {size:.1f} МБ", flush=True)
 
+    # Сводка для уведомления в Telegram (одна операция Make)
+    summary = (
+        f"Мадейра: {len(mad)} контрактов из {len(all_recs)} по Португалии\n"
+        f"Стройка: {len(constr)} подрядов на {sum_constr:,.0f} €\n"
+        f"Всего по региону: {sum_all:,.0f} €"
+    ).replace(",", " ")
+    with open("notify_summary.txt", "w", encoding="utf-8") as f:
+        f.write(summary)
+
 
 if __name__ == "__main__":
     main()
