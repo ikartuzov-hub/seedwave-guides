@@ -38,11 +38,22 @@
   "description": "Датированный учёт открытий, сроков и изменений публичной поддержки на Мадейре. Только то, по чему уже вышло авизо.",
   "inLanguage": "ru",
   "url": "https://apoios.seedwave.pt/cronologia/ru/",
-  "numberOfItems": 2,
+  "numberOfItems": 3,
   "itemListElement": [
     {
       "@type": "ListItem",
       "position": 1,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "SIEED",
+        "datePublished": "2026-08-14",
+        "text": "Срок подачи заявок по авизо M2030-2026-21 продлён до 10 октября 2026 года, 17:00. Остальные условия конкурса не изменились.",
+        "url": "https://apoios.seedwave.pt/sieed-madeira/ru/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
       "item": {
         "@type": "CreativeWork",
         "name": "SIEED",
@@ -53,7 +64,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 3,
       "item": {
         "@type": "CreativeWork",
         "name": "SIEED — aviso M2030-2026-21",
@@ -200,7 +211,7 @@ ol{padding-left:20px;margin:0 0 14px}
 </nav>
 
 <div class="wrap">
-<p class="kicker">Apoios · Madeira</p><h1>Хроника субсидий Мадейры</h1><p class="lead">Что менялось в публичной поддержке Мадейры, по датам. Сюда попадает только то, по чему уже опубликовано авизо или постановление — анонсы без официального текста не входят.</p><ul class="tl"><li class="tl-item"><time datetime="2026-07-25">2026-07-25</time><span class="tl-kind">Обновление</span><h3>SIEED</h3><p>Подтверждена сетка ставок: 50% для МСП вне зданий; при работах в самом здании база 30% с надбавками до 65%. Минимальные приемлемые расходы — 50 000 €.</p><p class="tl-meta">Источник: <a href="https://madeira.portugal2030.pt" rel="nofollow noopener" target="_blank">IDE, IP-RAM</a> · <a href="/sieed-madeira/ru/">Полный гид →</a></p></li><li class="tl-item"><time datetime="2026-07-22">2026-07-22</time><span class="tl-kind">Открытие</span><h3>SIEED — aviso M2030-2026-21</h3><p>Открыт приём заявок в Систему стимулов энергоэффективности и декарбонизации. Срок — 10 сентября 2026, 17:00. До 300 000 € на проект, до 450 000 € в туризме.</p><p class="tl-meta">Источник: <a href="https://madeira.portugal2030.pt" rel="nofollow noopener" target="_blank">Madeira 2030</a> · <a href="/sieed-madeira/ru/">Полный гид →</a></p></li></ul>
+<p class="kicker">Apoios · Madeira</p><h1>Хроника субсидий Мадейры</h1><p class="lead">Что менялось в публичной поддержке Мадейры, по датам. Сюда попадает только то, по чему уже опубликовано авизо или постановление — анонсы без официального текста не входят.</p><ul class="tl"><li class="tl-item"><time datetime="2026-08-14">2026-08-14</time><span class="tl-kind">Обновление</span><h3>SIEED</h3><p>Срок подачи заявок по авизо M2030-2026-21 продлён до 10 октября 2026 года, 17:00. Остальные условия конкурса не изменились.</p><p class="tl-meta">Источник: <a href="https://madeira.portugal2030.pt/2026/08/14/empresas-tem-ate-10-de-outubro-para-se-candidatarem-projetos-de-eficiencia-energetica-e-descarbonizacao/" rel="nofollow noopener" target="_blank">IDR, IP-RAM</a> · <a href="/sieed-madeira/ru/">Полный гид →</a></p></li><li class="tl-item"><time datetime="2026-07-25">2026-07-25</time><span class="tl-kind">Обновление</span><h3>SIEED</h3><p>Подтверждена сетка ставок: 50% для МСП вне зданий; при работах в самом здании база 30% с надбавками до 65%. Минимальные приемлемые расходы — 50 000 €.</p><p class="tl-meta">Источник: <a href="https://madeira.portugal2030.pt" rel="nofollow noopener" target="_blank">IDE, IP-RAM</a> · <a href="/sieed-madeira/ru/">Полный гид →</a></p></li><li class="tl-item"><time datetime="2026-07-22">2026-07-22</time><span class="tl-kind">Открытие</span><h3>SIEED — aviso M2030-2026-21</h3><p>Открыт приём заявок в Систему стимулов энергоэффективности и декарбонизации. Срок — 10 сентября 2026, 17:00. До 300 000 € на проект, до 450 000 € в туризме.</p><p class="tl-meta">Источник: <a href="https://madeira.portugal2030.pt" rel="nofollow noopener" target="_blank">Madeira 2030</a> · <a href="/sieed-madeira/ru/">Полный гид →</a></p></li></ul>
 
 </div>
 
@@ -223,9 +234,9 @@ var pop=document.getElementById('langPop'),btn=document.getElementById('langBtn'
 btn.onclick=function(e){e.stopPropagation();var o=pop.classList.toggle('open');btn.setAttribute('aria-expanded',o);};
 document.addEventListener('click',function(){pop.classList.remove('open');btn.setAttribute('aria-expanded',false);});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){pop.classList.remove('open');btn.setAttribute('aria-expanded',false);}});
-// ---- days left until 10.09.2026 (only where the page has .days) ----
+// ---- days left until 10.10.2026 (only where the page has .days) ----
 (function(){var els=document.querySelectorAll('.days,#days');if(!els.length)return;
-  var d=Math.ceil((new Date('2026-09-10T17:00:00+01:00')-new Date())/86400000);
+  var d=Math.ceil((new Date('2026-10-10T17:00:00+01:00')-new Date())/86400000);
   els.forEach(function(el){el.textContent=d>0?d:'0';});})();
 </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bb55246e43c74dcfbacd08fd4b9e94ae"}'></script><!-- End Cloudflare Web Analytics --></body>
