@@ -1,31 +1,31 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
-  "total_records_pt": 149021,
-  "madeira_records": 3399,
-  "madeira_construction": 158,
-  "sum_madeira_eur": 598815025.77,
-  "sum_construction_eur": 103248226.58,
+  "total_records_pt": 154118,
+  "madeira_records": 3528,
+  "madeira_construction": 164,
+  "sum_madeira_eur": 609665854.6,
+  "sum_construction_eur": 106238110.8,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
-      1950
+      2026
     ],
     [
       "['Aquisição de serviços']",
-      1225
+      1270
     ],
     [
       "['Empreitadas de obras públicas']",
-      158
+      164
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
-      38
+      39
     ],
     [
       "['Locação de bens móveis']",
-      23
+      24
     ],
     [
       "['Concessão de serviços públicos']",
@@ -43,15 +43,15 @@
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      1029
+      1075
     ],
     [
       "Consulta Prévia",
-      944
+      966
     ],
     [
       "Concurso público",
-      650
+      691
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
@@ -59,11 +59,11 @@
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 258.º)",
-      205
+      221
     ],
     [
       "Contratação excluída II",
-      153
+      157
     ],
     [
       "Concurso limitado por prévia qualificação",
@@ -78,7 +78,7 @@
       4
     ],
     [
-      "Concurso público simplificado",
+      "Ajuste Direto Regime Geral ao abrigo do artigo 7º da Lei n.º",
       1
     ]
   ],
@@ -148,6 +148,10 @@
       8714999.98
     ],
     [
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      6176793.13
+    ],
+    [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
       5044999.98
     ],
@@ -158,10 +162,6 @@
     [
       "501721037 - IMI - Imagens Médicas Integradas, S.A.",
       4104930.0
-    ],
-    [
-      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      3983208.98
     ],
     [
       "511224826 -  OPERTRANS – DISTRIBUIÇÃO E LOGÍSTICA, LDA",
@@ -210,16 +210,16 @@
       8714999.98
     ],
     [
+      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
+      5979893.13
+    ],
+    [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
       5044999.98
     ],
     [
       "515036773 - GRADUALPARALLEL - LDA",
       3899950.0
-    ],
-    [
-      "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      3786308.98
     ],
     [
       "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
@@ -254,6 +254,10 @@
       1151947.5
     ],
     [
+      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
+      1028144.47
+    ],
+    [
       "517322846 - TREEFOR Engenharia Lda.",
       958411.5
     ],
@@ -276,10 +280,6 @@
     [
       "510739105 - Perfiltalento Unipessoal, Lda.",
       561589.98
-    ],
-    [
-      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
-      560519.47
     ],
     [
       "511262175 - Semax-Sistemas Eletrónicos e Manutenção, Lda.",
