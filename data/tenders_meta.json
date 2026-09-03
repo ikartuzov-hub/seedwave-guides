@@ -1,31 +1,31 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
-  "total_records_pt": 154118,
-  "madeira_records": 3528,
-  "madeira_construction": 164,
-  "sum_madeira_eur": 609665854.6,
-  "sum_construction_eur": 106238110.8,
+  "total_records_pt": 162128,
+  "madeira_records": 3714,
+  "madeira_construction": 176,
+  "sum_madeira_eur": 629945746.65,
+  "sum_construction_eur": 113867850.05,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
-      2026
+      2127
     ],
     [
       "['Aquisição de serviços']",
-      1270
+      1338
     ],
     [
       "['Empreitadas de obras públicas']",
-      164
+      176
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
-      39
+      43
     ],
     [
       "['Locação de bens móveis']",
-      24
+      25
     ],
     [
       "['Concessão de serviços públicos']",
@@ -43,42 +43,42 @@
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      1075
+      1130
     ],
     [
       "Consulta Prévia",
-      966
+      1034
     ],
     [
       "Concurso público",
-      691
+      734
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
-      395
+      404
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 258.º)",
-      221
+      227
     ],
     [
       "Contratação excluída II",
-      157
+      159
+    ],
+    [
+      "Ajuste direto simplificado ao abrigo da Lei n.º 30/2021, de ",
+      10
     ],
     [
       "Concurso limitado por prévia qualificação",
       9
     ],
     [
-      "Ajuste direto simplificado ao abrigo da Lei n.º 30/2021, de ",
-      7
-    ],
-    [
       "Consulta Prévia Simplificada",
       4
     ],
     [
-      "Ajuste Direto Regime Geral ao abrigo do artigo 7º da Lei n.º",
+      "Concurso público simplificado",
       1
     ]
   ],
@@ -113,7 +113,7 @@
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      32561765.99
+      34237765.99
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
@@ -124,12 +124,12 @@
       28997000.0
     ],
     [
-      "500246963 - Repsol Portuguesa Ldª",
-      16406838.0
+      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
+      17582999.96
     ],
     [
-      "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
-      14997999.92
+      "500246963 - Repsol Portuguesa Ldª",
+      16406838.0
     ],
     [
       "503160300 - NOVA EXPRESSÃO- Planeamento de Meios e Publicidade , S.A.",
@@ -141,7 +141,7 @@
     ],
     [
       "511104642 - RIM - Engenharia e Construções, SA",
-      11136591.28
+      11893591.28
     ],
     [
       "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
@@ -149,7 +149,7 @@
     ],
     [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      6176793.13
+      6748891.95
     ],
     [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
@@ -187,7 +187,7 @@
   "top_construction_by_value": [
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      32462199.99
+      34138199.99
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
@@ -199,11 +199,11 @@
     ],
     [
       "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
-      14997999.92
+      17582999.96
     ],
     [
       "511104642 - RIM - Engenharia e Construções, SA",
-      11136591.28
+      11893591.28
     ],
     [
       "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
@@ -211,7 +211,7 @@
     ],
     [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      5979893.13
+      6551991.95
     ],
     [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
@@ -226,12 +226,24 @@
       3750000.0
     ],
     [
+      "511099177 - TECNOVIA - MADEIRA, SOCIEDADE DE EMPREITADAS, S.A.",
+      2764000.0
+    ],
+    [
       "515662712 - FLAMINGOBALCONY ENGENHARIA E CONSTRUÇÕES LDA",
       2440144.0
     ],
     [
       "511237219 - Tecnaco - Técnicos de Construção, S.A.",
       2186369.67
+    ],
+    [
+      "511143834 - FARROBO, Sociedade de Construções, S. A",
+      2146036.08
+    ],
+    [
+      "980098823 - DRAVO, S.A.",
+      1676000.0
     ],
     [
       "515662712 - Flamingobalcony Engenharia e Construções, Lda",
@@ -247,7 +259,7 @@
     ],
     [
       "511011202 - ERUMAD - Engenharia e Reabilitação Urbana, Lda",
-      1183990.58
+      1224018.58
     ],
     [
       "515346993 - TRAÇOS HISTÓRICOS - UNIPESSOAL LDA",
@@ -262,10 +274,6 @@
       958411.5
     ],
     [
-      "511099177 - TECNOVIA - MADEIRA, SOCIEDADE DE EMPREITADAS, S.A.",
-      889000.0
-    ],
-    [
       "511031181 - Sales, Faria &amp; Andrade- Sociedade de Construções Ldª",
       805588.45
     ],
@@ -276,14 +284,6 @@
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S. A.",
       575000.0
-    ],
-    [
-      "510739105 - Perfiltalento Unipessoal, Lda.",
-      561589.98
-    ],
-    [
-      "511262175 - Semax-Sistemas Eletrónicos e Manutenção, Lda.",
-      489794.0
     ]
   ]
 }
