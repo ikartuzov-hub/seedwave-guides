@@ -1,0 +1,70 @@
+name: apoios — сборка витрины и IndexNow
+
+# Контур публикаций SeedWave, шаг 4 (сайт).
+# Make Relay (сценарий 7432397) коммитит запись в _source/_src/_data/avisos.json →
+# здесь build.py пересобирает страницы, результат копируется в корень (GitHub Pages),
+# коммитится и поисковики получают пинг IndexNow по всему sitemap.
+# Сборка детерминирована: чистый прогон 15.09.2026 дал 28 файлов, побайтно равных корню.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_source/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-apoios
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Проверка avisos.json
+        run: python3 -c "import json;d=json.load(open('_source/_src/_data/avisos.json',encoding='utf-8'));print('записей в хронике:',len(d['entries']))"
+
+      - name: Сборка
+        run: |
+          rm -rf _source/dist
+          python3 _source/build.py
+          cp -R _source/dist/. .
+
+      - name: Коммит результата
+        id: commit
+        run: |
+          git config user.name "seedwave-bot"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Без изменений"
+          else
+            git commit -m "build: apoios пересобран ($(date -u +%Y-%m-%d\ %H:%M) UTC)"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: IndexNow
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          sleep 90   # дать GitHub Pages выкатить новую версию
+          python3 - <<'PY'
+          import json, re, urllib.request
+          host = "apoios.seedwave.pt"
+          key = "62eacdf7d5ab34ed98d7189a57cc20b7"
+          urls = re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml", encoding="utf-8").read())
+          body = json.dumps({"host": host, "key": key,
+                             "keyLocation": f"https://{host}/{key}.txt",
+                             "urlList": urls}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body,
+                                       headers={"Content-Type": "application/json; charset=utf-8"})
+          with urllib.request.urlopen(req, timeout=30) as r:
+              print("IndexNow:", r.status, "URL:", len(urls))
+          PY
