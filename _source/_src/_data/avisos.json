@@ -1,6 +1,36 @@
 {
  "_comment": "Хроника авизо. ПРАВИЛО: сюда попадает только Ур.1 — есть текст авизо или постановление JORAM. Анонсы без авизо (контур B сенсора) НЕ публикуются. Новая запись = один объект в начало массива. Движок не трогаем.",
+ "_comment_open": "Открытые окна для витрины: программа, дедлайн (ISO с зоной), ссылка на гид. Закрылось — убрать запись.",
+ "open": [
+  {
+   "program": "SIEED",
+   "deadline": "2026-10-10T17:00:00+01:00",
+   "link": "/sieed-madeira/",
+   "title": {
+    "pt": "SIEED — Eficiência Energética 2030 (M2030-2026-21)",
+    "en": "SIEED — Energy Efficiency 2030 (M2030-2026-21)",
+    "es": "SIEED — Eficiencia Energética 2030 (M2030-2026-21)",
+    "ru": "SIEED — Энергоэффективность 2030 (авизо M2030-2026-21)",
+    "de": "SIEED — Energieeffizienz 2030 (M2030-2026-21)"
+   }
+  }
+ ],
  "entries": [
+  {
+   "date": "2026-09-14",
+   "program": "MCT (ex-SSM)",
+   "kind": "update",
+   "source": "Diário da República · gov.pt",
+   "sourceUrl": "https://diariodarepublica.pt/dr/detalhe/lei/23-2026-1128264720",
+   "link": "https://ajuda.seedwave.pt/lei-23-2026/",
+   "text": {
+    "pt": "Verificado a 14.09.2026: a Lei n.º 23/2026, de 1 de junho, retirou o limite máximo ao custo elegível do bilhete no subsídio de mobilidade (agora MCT), mas a página do serviço em gov.pt — atualizada a 09.09.2026 — continua a indicar o teto de 400 €. Quem lê a página antes de decidir continua a planear em torno de um limite que já não existe.",
+    "en": "Verified on 14.09.2026: Law 23/2026 of 1 June removed the maximum eligible ticket cost from the mobility subsidy (now MCT), yet the service page on gov.pt — updated on 09.09.2026 — still shows the €400 cap. Anyone reading the page before deciding is still planning around a limit that no longer exists.",
+    "es": "Verificado el 14.09.2026: la Ley 23/2026, de 1 de junio, eliminó el límite máximo del coste elegible del billete en la ayuda a la movilidad (ahora MCT), pero la página del servicio en gov.pt — actualizada el 09.09.2026 — sigue mostrando el tope de 400 €. Quien lee la página antes de decidir sigue planificando en torno a un límite que ya no existe.",
+    "ru": "Сверено 14.09.2026: Закон 23/2026 от 1 июня снял предельную приемлемую стоимость билета по субсидии мобильности (теперь MCT), но страница услуги на gov.pt — обновлена 09.09.2026 — по-прежнему показывает потолок 400 €. Тот, кто читает страницу перед решением, продолжает планировать вокруг несуществующего лимита.",
+    "de": "Geprüft am 14.09.2026: Das Gesetz 23/2026 vom 1. Juni hat die Obergrenze für die förderfähigen Ticketkosten beim Mobilitätszuschuss (jetzt MCT) aufgehoben, doch die Service-Seite auf gov.pt — aktualisiert am 09.09.2026 — zeigt weiterhin die 400-€-Grenze. Wer die Seite vor der Entscheidung liest, plant weiter um ein Limit herum, das es nicht mehr gibt."
+   }
+  },
   {
    "date": "2026-08-14",
    "program": "SIEED",

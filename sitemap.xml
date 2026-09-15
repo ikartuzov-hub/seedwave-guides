@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://apoios.seedwave.pt/</loc></url>
   <url><loc>https://apoios.seedwave.pt/igor/</loc></url>
+  <url>
+    <loc>https://apoios.seedwave.pt/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/"/>
+  </url>
+  <url>
+    <loc>https://apoios.seedwave.pt/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/"/>
+  </url>
+  <url>
+    <loc>https://apoios.seedwave.pt/es/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/"/>
+  </url>
+  <url>
+    <loc>https://apoios.seedwave.pt/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/"/>
+  </url>
+  <url>
+    <loc>https://apoios.seedwave.pt/de/</loc>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apoios.seedwave.pt/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apoios.seedwave.pt/es/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://apoios.seedwave.pt/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apoios.seedwave.pt/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apoios.seedwave.pt/"/>
+  </url>
   <url>
     <loc>https://apoios.seedwave.pt/cronologia/</loc>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/cronologia/"/>

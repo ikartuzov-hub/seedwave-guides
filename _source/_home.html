@@ -11,14 +11,14 @@
 <link rel="icon" type="image/svg+xml" href="/icon.svg?v=2">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
-<meta name="apple-mobile-web-app-title" content="{{APPTITLE}}">
+<meta name="apple-mobile-web-app-title" content="Apoios">
 <meta name="theme-color" content="#0c1417">
 
 <meta property="og:title" content="{{OGTITLE}}">
 <meta property="og:description" content="{{OGDESCRIPTION}}">
 <meta property="og:image" content="{{OGIMAGE}}">
 <meta property="og:url" content="{{URL}}">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="{{OGLOCALE}}">
 {{OGALTERNATES}}
 <meta name="twitter:card" content="summary_large_image">
@@ -31,7 +31,7 @@
 {{CSS}}
 </style>
 </head>
-<body>
+<body class="home">
 
 <a class="brandmark" href="https://seedwave.pt/" aria-label="SeedWave">
 <svg viewBox="0 0 100 100" width="26" height="26" fill="none" stroke="var(--accent)" stroke-width="7" stroke-linecap="round">
@@ -39,6 +39,7 @@
 <path d="M20 86 Q30 80 40 86 Q50 92 60 86 Q70 80 80 86"/></svg></a>
 
 <div class="topctrl">
+  <button class="rbtn" id="shareBtn" aria-label="{{SHARELABEL}}">↗</button>
   <button class="rbtn" id="langBtn" aria-label="{{LANGLABEL}}" aria-haspopup="true" aria-expanded="false">{{LANGUPPER}}</button>
   <button class="rbtn" id="themeBtn" aria-label="{{THEMELABEL}}">☾</button>
 </div>
@@ -48,7 +49,6 @@
 
 <div class="wrap">
 {{BODY}}
-{{UPDATES}}
 </div>
 
 <footer>
@@ -64,16 +64,36 @@ function setTheme(t){document.documentElement.setAttribute('data-theme',t==='lig
   document.getElementById('themeBtn').textContent=t==='light'?'☀':'☾';localStorage.setItem('sw_theme',t);}
 setTheme(theme);
 document.getElementById('themeBtn').onclick=function(){setTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');};
-// ---- language: each language lives on its own URL, the switcher is plain links ----
+// ---- language: each language lives on its own URL ----
 localStorage.setItem('sw_lang','{{LANG}}');
 var pop=document.getElementById('langPop'),btn=document.getElementById('langBtn');
 btn.onclick=function(e){e.stopPropagation();var o=pop.classList.toggle('open');btn.setAttribute('aria-expanded',o);};
 document.addEventListener('click',function(){pop.classList.remove('open');btn.setAttribute('aria-expanded',false);});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){pop.classList.remove('open');btn.setAttribute('aria-expanded',false);}});
-// ---- days left until 10.10.2026 (only where the page has .days) ----
-(function(){var els=document.querySelectorAll('.days,#days');if(!els.length)return;
-  var d=Math.ceil((new Date('2026-10-10T17:00:00+01:00')-new Date())/86400000);
-  els.forEach(function(el){el.textContent=d>0?d:'0';});})();
+// ---- одометр: считает вверх до реальной суммы ----
+(function(){var el=document.getElementById('odo');if(!el)return;
+  var target=parseFloat(el.dataset.v||'0'),loc='{{NUMLOCALE}}',cur=el.dataset.cur||'€';
+  function fmt(n){return new Intl.NumberFormat(loc,{maximumFractionDigits:0}).format(Math.round(n))+' '+cur;}
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(reduce){el.textContent=fmt(target);return;}
+  var t0=null,dur=1800;
+  function step(ts){if(!t0)t0=ts;var p=Math.min((ts-t0)/dur,1);
+    el.textContent=fmt(target*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step);}
+  var seen=false,io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting&&!seen){seen=true;requestAnimationFrame(step);}});},{threshold:.4});
+  io.observe(el);})();
+// ---- дни до ближайшего дедлайна ----
+(function(){var els=document.querySelectorAll('.days');if(!els.length)return;
+  els.forEach(function(el){var d=Math.ceil((new Date(el.dataset.until)-new Date())/86400000);
+    el.textContent=d>0?d:'0';});})();
+// ---- переслать другу ----
+(function(){var txt={{SHARETEXT}},url=location.origin+location.pathname,done={{SHAREDONE}};
+  function go(e){e.preventDefault();
+    if(navigator.share){navigator.share({title:document.title,text:txt,url:url}).catch(function(){});return;}
+    navigator.clipboard.writeText(txt+' '+url).then(function(){
+      var n=document.getElementById('copied');if(n){n.hidden=false;n.textContent=done;setTimeout(function(){n.hidden=true;},2600);}
+    }).catch(function(){});}
+  ['shareBtn','shareCta'].forEach(function(id){var b=document.getElementById(id);if(b)b.onclick=go;});})();
 </script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bb55246e43c74dcfbacd08fd4b9e94ae"}'></script><!-- End Cloudflare Web Analytics --></body>
 </html>

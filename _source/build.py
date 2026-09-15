@@ -27,6 +27,13 @@ UI     = {  # единственное, что движок говорит от 
   "de": {"lang": "Sprache", "theme": "Design", "igor": "Wer ich bin — Madeira-Förderungen"},
 }
 PAGES = ["restauracao-madeira", "sieed-madeira", "cafe-digital-madeira"]
+WHATSAPP = "https://whatsapp.com/channel/0029VbDHFF8K0IBiiqgMON2K"   # канал авизо; пусто → блок не рендерится
+HOME_OG  = f"{SITE}/og-home.png"
+NUMLOC   = {"pt": "pt-PT", "en": "en-GB", "es": "es-ES", "ru": "ru-RU", "de": "de-DE"}
+UILAB    = {  # подписи кнопок шапки витрины
+  "pt": {"share": "Partilhar"}, "en": {"share": "Share"}, "es": {"share": "Compartir"},
+  "ru": {"share": "Поделиться"}, "de": {"share": "Teilen"},
+}
 TIMELINE_SLUG = "cronologia"
 TL = {  # хроника авизо — тексты движка, по одному словарю на язык
   "pt": {"title": "Cronologia dos apoios da Madeira — o que mudou e quando",
@@ -181,6 +188,176 @@ def timeline_jsonld(avisos, lang):
     }, ensure_ascii=False, indent=2)
 
 
+# ═══════════════ витрина (главная страница серии) ═══════════════
+
+def home_url(lang):
+    return f"{SITE}/" if lang == LANGS[0] else f"{SITE}/{lang}/"
+
+
+def load_open():
+    """Открытые окна — отдельный ключ avisos.json, движок хроники его не трогает."""
+    p = os.path.join(ROOT, "_src", "_data", "avisos.json")
+    if not os.path.exists(p):
+        return []
+    return json.load(open(p, encoding="utf-8")).get("open", [])
+
+
+def load_tenders_meta():
+    p = os.path.join(ROOT, "..", "data", "tenders_meta.json")
+    if not os.path.exists(p):
+        return {}
+    return json.load(open(p, encoding="utf-8"))
+
+
+def nbsp_num(n, lang):
+    """Число группами по три, узкий неразрывный пробел — одинаково во всех языках."""
+    return f"{int(round(n)):,}".replace(",", "\u202f")
+
+
+def home_body(lang, d, avisos, opens, meta):
+    total = meta.get("sum_madeira_eur") or 0
+    cnt   = meta.get("madeira_records") or 0
+    h, o  = d["hero"], d["odo"]
+
+    out = [f'''<section class="hero">
+  <p class="eyebrow">{h["eyebrow"]}</p>
+  <h1>{h["h1"]}</h1>
+  <p class="lead">{h["lead"]}</p>
+</section>
+
+<div class="odo">
+  <div class="flow" aria-hidden="true"><span>€</span><span>€</span><span>€</span></div>
+  <p class="k">{o["label"]}</p>
+  <p class="v" id="odo" data-v="{total:.0f}" data-cur="€">0 €</p>
+  <p class="sub">{o["sub"].replace("{n}", nbsp_num(cnt, lang))}</p>
+</div>''']
+
+    # строка открытых окон
+    for op in opens:
+        title = op["title"].get(lang, op["title"][LANGS[0]])
+        until = op["deadline"]
+        days  = d["open"]["days"].replace("{until}", until)
+        out.append(f'''<div class="openrow">
+  <span class="dot" aria-hidden="true"></span>
+  <span><b>{d["open"]["now"]}:</b> {title} — {days}</span>
+  <a href="{local(op["link"], lang)}">{d["open"]["cta"]}</a>
+</div>''')
+
+    first = opens[0]["link"] if opens else "/" + PAGES[0] + "/"
+    out.append(f'''<div class="acts">
+  <a class="btn" href="{local(first, lang)}">{d["acts"]["primary"]}</a>
+  <button class="btn ghost" id="shareCta" type="button">{d["acts"]["share"]}</button>
+  <span class="copied" id="copied" hidden></span>
+</div>''')
+
+    # окно новостей
+    n = d["news"]
+    rows = []
+    for e in avisos[:3]:
+        kind = n["kind"].get(e["kind"], e["kind"])
+        rows.append(f'''<a class="it" href="{local(e["link"], lang)}">
+      <span class="hd"><time datetime="{e["date"]}">{e["date"]}</time>
+        <span class="prog">{e["program"]}</span><span class="kind">{kind}</span></span>
+      <p>{e["text"][lang]}</p>
+      <span class="src">{n["source"]}: {e["source"]}</span>
+    </a>''')
+    if rows:
+        out.append(f'''<section class="sec" id="novidades">
+  <h2>{n["h2"]}</h2>
+  <p class="note">{n["note"]}</p>
+  <div class="feed">
+    {"".join(rows)}
+  </div>
+  <a class="allnews" href="{local("/" + TIMELINE_SLUG + "/", lang)}">{n["all"]}</a>
+</section>''')
+
+    # гиды
+    g = d["guides"]
+    cards = []
+    for it in g["items"]:
+        cards.append(f'''<a class="guide" href="{local("/" + it["slug"] + "/", lang)}">
+    <b>{it["title"]}&nbsp;→</b><span>{it["blurb"]}</span>
+  </a>''')
+    out.append(f'''<section class="sec" id="guias">
+  <h2>{g["h2"]}</h2>
+  <p class="note">{g["note"]}</p>
+  {"".join(cards)}
+</section>''')
+
+    # канал WhatsApp
+    if WHATSAPP:
+        w = d["group"]
+        out.append(f'''<section class="group">
+  <h3>{w["h3"]}</h3>
+  <p>{w["p"]}</p>
+  <a class="btn" href="{WHATSAPP}" rel="nofollow noopener" target="_blank">{w["btn"]}</a>
+</section>''')
+
+    bridge = d["bridge"].replace("<b>", '<a href="/igor/">').replace("</b>", "</a>")
+    out.append(f'<p class="bridge">{bridge}</p>')
+    return "\n".join(out)
+
+
+def home_jsonld(lang, d, opens):
+    return json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "WebSite", "name": "SeedWave · Apoios",
+             "url": home_url(lang), "inLanguage": HREF[lang],
+             "publisher": {"@type": "Organization", "name": "SeedWave",
+                           "founder": {"@type": "Person", "name": "Igor Kartuzov"}}},
+            {"@type": "ItemList", "itemListElement": [
+                {"@type": "ListItem", "position": i + 1,
+                 "url": SITE + local("/" + it["slug"] + "/", lang).lstrip("/").join(["/", ""]).replace("//", "/"),
+                 "name": it["title"]}
+                for i, it in enumerate(d["guides"]["items"])]},
+        ]}, ensure_ascii=False, indent=2)
+
+
+def build_home(css, avisos):
+    tpl   = open(os.path.join(ROOT, "_home.html"), encoding="utf-8").read()
+    hcss  = open(os.path.join(ROOT, "_engine.css"), encoding="utf-8").read() + "\n" + \
+            open(os.path.join(ROOT, "_home.css"),  encoding="utf-8").read()
+    opens = load_open()
+    meta  = load_tenders_meta()
+    made  = []
+    for lang in LANGS:
+        d = json.load(open(os.path.join(ROOT, "_src", "_home", f"{lang}.json"), encoding="utf-8"))
+        url = home_url(lang)
+        href = "\n".join(f'<link rel="alternate" hreflang="{HREF[l]}" href="{home_url(l)}">' for l in LANGS) \
+             + f'\n<link rel="alternate" hreflang="x-default" href="{home_url(LANGS[0])}">'
+        ogalt = "\n".join(f'<meta property="og:locale:alternate" content="{LOCALE[l]}">'
+                          for l in LANGS if l != lang)
+        links = "\n".join(
+            f'  <a href="{home_url(l)}" hreflang="{HREF[l]}"' + (' class="active"' if l == lang else "")
+            + f'>{NAME[l]}</a>' for l in LANGS)
+        html = tpl
+        for k, v in {
+            "{{LANG}}": HREF[lang], "{{TITLE}}": d["head"]["title"],
+            "{{DESCRIPTION}}": d["head"]["description"], "{{URL}}": url,
+            "{{HREFLANG}}": href, "{{OGTITLE}}": d["head"]["ogTitle"],
+            "{{OGDESCRIPTION}}": d["head"]["ogDescription"], "{{OGIMAGE}}": HOME_OG,
+            "{{OGLOCALE}}": LOCALE[lang], "{{OGALTERNATES}}": ogalt,
+            "{{JSONLD}}": home_jsonld(lang, d, opens), "{{CSS}}": hcss,
+            "{{LANGUPPER}}": lang.upper(), "{{LANGLABEL}}": UI[lang]["lang"],
+            "{{THEMELABEL}}": UI[lang]["theme"], "{{SHARELABEL}}": UILAB[lang]["share"],
+            "{{LANGLINKS}}": links, "{{IGORANCHOR}}": UI[lang]["igor"],
+            "{{NUMLOCALE}}": NUMLOC[lang],
+            "{{SHARETEXT}}": json.dumps(d["acts"]["shareText"], ensure_ascii=False),
+            "{{SHAREDONE}}": json.dumps(d["acts"]["copied"], ensure_ascii=False),
+            "{{BODY}}": home_body(lang, d, avisos, opens, meta),
+        }.items():
+            html = html.replace(k, v)
+        assert "{{" not in html, f"незаполненный плейсхолдер в витрине/{lang}"
+        p = os.path.join(OUT, "index.html") if lang == LANGS[0] \
+            else os.path.join(OUT, lang, "index.html")
+        os.makedirs(os.path.dirname(p), exist_ok=True)
+        open(p, "w", encoding="utf-8").write(html)
+        made.append(("home", lang, url, len(html.encode())))
+        print(f"  {'витрина':22} {lang}  →  {os.path.relpath(p, OUT):45} {len(html.encode()):>6} B")
+    return made
+
+
 def build():
     engine = open(os.path.join(ROOT, "_engine.html"), encoding="utf-8").read()
     avisos = load_avisos()
@@ -277,12 +454,7 @@ def build():
     def langs_of(slug):
         return [l for l in LANGS if os.path.exists(os.path.join(ROOT, "_src", slug, f"{l}.json"))]
 
-    land = open(os.path.join(ROOT, "_src", "_static", "index.html"), encoding="utf-8").read()
-    for slug in PAGES:
-        row = " · ".join(f'<a href="{url_of(slug, l)}" hreflang="{HREF[l]}">{l.upper()}</a>'
-                         for l in langs_of(slug))
-        land = land.replace(f"<!--LANGS:{slug}-->", f'<p class="langs">{row}</p>')
-    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(land)
+    made += build_home(css, avisos)
 
     llms = open(os.path.join(ROOT, "_src", "_static", "llms.txt"), encoding="utf-8").read()
     llms = llms.replace("{{LANGNOTE}}", "/".join(l.upper() for l in LANGS)
@@ -299,8 +471,13 @@ def build():
     xml = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
            'xmlns:xhtml="http://www.w3.org/1999/xhtml">',
-           f'  <url><loc>{SITE}/</loc></url>',
            f'  <url><loc>{SITE}/igor/</loc></url>']
+    for lang in LANGS:                                   # витрина: своя запись на каждый язык
+        xml.append(f"  <url>\n    <loc>{home_url(lang)}</loc>")
+        for l in LANGS:
+            xml.append(f'    <xhtml:link rel="alternate" hreflang="{HREF[l]}" href="{home_url(l)}"/>')
+        xml.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{home_url(LANGS[0])}"/>')
+        xml.append("  </url>")
     for lang in LANGS:
         xml.append(f"  <url>\n    <loc>{tl_url(lang)}</loc>")
         for l in LANGS:

@@ -1,0 +1,56 @@
+{
+  "head": {
+    "title": "Förderungen für Unternehmen auf Madeira 2026 — geprüfte Guides | SeedWave",
+    "description": "Welche öffentlichen Förderprogramme auf Madeira 2026 offen sind, für wen, wie viel und wie man sich bewirbt. Jede Zahl mit Primärquelle.",
+    "ogTitle": "Förderungen auf Madeira — was gerade offen ist",
+    "ogDescription": "Fristen, Sätze und Bedingungen der Madeira-Förderungen, ohne Kleingedrucktes. Jede Zahl stammt aus der amtlichen Bekanntmachung."
+  },
+  "hero": {
+    "eyebrow": "SeedWave · Förderungen · Madeira",
+    "h1": "Auf Madeira fließt öffentliches Geld. Die meisten Betriebe holen es nie ab.",
+    "lead": "Nicht weil der Anspruch fehlt — sondern weil niemand rechtzeitig Bescheid gab. Hier steht, was offen ist, wie viel es bringt, bis wann und was man bereithalten muss. <b>Jede Zahl verweist auf die amtliche Quelle.</b>"
+  },
+  "odo": {
+    "label": "Öffentliche Aufträge auf Madeira im Jahr 2026",
+    "sub": "{n} Aufträge · offene Daten des IMPIC (Portal BASE) über <a href=\"https://dados.gov.pt\" rel=\"nofollow\">dados.gov.pt</a>. Das sind Auftragsausgaben — Förderprogramme für Unternehmen sind ein eigener Topf, und dafür bewirbt man sich."
+  },
+  "open": {
+    "now": "Jetzt offen",
+    "days": "noch <span class=\"cnt days\" data-until=\"{until}\">·</span> Tage",
+    "cta": "Bedingungen ansehen →"
+  },
+  "acts": {
+    "primary": "Was gerade offen ist",
+    "share": "An einen Freund senden",
+    "copied": "Link kopiert ✓",
+    "shareText": "Förderungen für Unternehmen auf Madeira, erklärt mit den amtlichen Quellen:"
+  },
+  "news": {
+    "h2": "Was sich bei den Förderungen geändert hat",
+    "note": "Aufgenommen wird nur, wofür bereits eine Bekanntmachung oder ein Erlass vorliegt. Ankündigungen ohne amtlichen Text bleiben draußen.",
+    "all": "Vollständige Chronik ansehen →",
+    "source": "Quelle",
+    "kind": {"open": "Öffnung", "update": "Aktualisierung", "close": "Schließung"}
+  },
+  "guides": {
+    "h2": "Guides",
+    "note": "Jeder Guide in fünf Sprachen, jede Sprache unter eigener Adresse.",
+    "items": [
+      {"slug": "restauracao-madeira",
+       "title": "Förderungen für Cafés und Restaurants auf Madeira 2026",
+       "blurb": "Welche Programme es gibt (SIEED, Digitalisierung, Gründung, Einstellung), wie viel sie bringen und wie man sich bewirbt."},
+      {"slug": "sieed-madeira",
+       "title": "SIEED — Bewerbungen bis 10. Oktober 2026",
+       "blurb": "Energieeffizienz 2030 (Aufruf M2030-2026-21): 50% für KMU, was im Café oder Restaurant abgedeckt ist und wie man die Frist hält."},
+      {"slug": "cafe-digital-madeira",
+       "title": "Café auf Madeira digitalisieren 2026 — gibt es einen offenen Aufruf?",
+       "blurb": "Ehrliche Antwort: heute gibt es keinen offenen Aufruf allein für Digitalisierung. Was geschlossen wurde und was man jetzt für das nächste Fenster vorbereitet."}
+    ]
+  },
+  "group": {
+    "h3": "WhatsApp-Kanal für Aufrufe und Fristen",
+    "p": "Ein Aufruf öffnet, eine Frist verschiebt sich, ein neuer Satz erscheint — hier kommt es in einer Zeile an. Ein Kanal, keine Gruppe: das Telefon bleibt ruhig.",
+    "btn": "Kanal folgen"
+  },
+  "bridge": "Diese Guides sind zum Selbermachen geschrieben — dafür sind sie da. Wenn jemand die Bewerbung von Anfang bis Ende führen soll, <b>sehen Sie, wer ich bin und wie ich arbeite</b>."
+}

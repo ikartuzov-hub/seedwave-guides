@@ -1,0 +1,56 @@
+{
+  "head": {
+    "title": "Business grants in Madeira 2026 — verified guides | SeedWave",
+    "description": "Which public support programmes are open to businesses in Madeira in 2026, for whom, how much and how to apply. Every figure links to its primary source.",
+    "ogTitle": "Business grants in Madeira — what is open right now",
+    "ogDescription": "Deadlines, rates and conditions of Madeira's support programmes, with no small print. Every figure comes from the official call."
+  },
+  "hero": {
+    "eyebrow": "SeedWave · Grants · Madeira",
+    "h1": "Public money moves through Madeira. Most businesses never come to claim it.",
+    "lead": "Not because they don't qualify — because nobody told them in time. Here is what is open, how much it pays, until when, and what you need in hand. <b>Every figure links to the official source.</b>"
+  },
+  "odo": {
+    "label": "Public contracts signed in Madeira in 2026",
+    "sub": "{n} contracts · open data from IMPIC (Portal BASE) via <a href=\"https://dados.gov.pt\" rel=\"nofollow\">dados.gov.pt</a>. That is contract spending — business support programmes are a separate pot, and that one you apply for."
+  },
+  "open": {
+    "now": "Open now",
+    "days": "<span class=\"cnt days\" data-until=\"{until}\">·</span> days left",
+    "cta": "See conditions →"
+  },
+  "acts": {
+    "primary": "What is open right now",
+    "share": "Send to a friend",
+    "copied": "Link copied ✓",
+    "shareText": "Business grants in Madeira, explained with the official sources:"
+  },
+  "news": {
+    "h2": "What changed in the grants",
+    "note": "Only entries backed by a published call or decree. Announcements without official text stay out.",
+    "all": "See the full timeline →",
+    "source": "Source",
+    "kind": {"open": "Opening", "update": "Update", "close": "Closing"}
+  },
+  "guides": {
+    "h2": "Guides",
+    "note": "Each guide in five languages, each language on its own address.",
+    "items": [
+      {"slug": "restauracao-madeira",
+       "title": "Grants for cafés and restaurants in Madeira 2026",
+       "blurb": "Which programmes exist (SIEED, digitalisation, start-up, hiring), how much they pay and how to apply."},
+      {"slug": "sieed-madeira",
+       "title": "SIEED — applications until 10 October 2026",
+       "blurb": "Energy Efficiency 2030 (call M2030-2026-21): 50% for SMEs, what it covers in a café or restaurant, and how to apply before the deadline."},
+      {"slug": "cafe-digital-madeira",
+       "title": "Digitalising a café in Madeira 2026 — is there an open call?",
+       "blurb": "The honest answer: today there is no open call for digitalisation alone. What closed, and what to prepare now for the next window."}
+    ]
+  },
+  "group": {
+    "h3": "WhatsApp channel for calls and deadlines",
+    "p": "A call opens, a deadline moves, a new rate is published — it arrives here in one line. A channel, not a group: your phone stays quiet.",
+    "btn": "Follow the channel"
+  },
+  "bridge": "These guides are written so you can do it yourself — that is what they are for. If you would rather someone ran the application end to end, <b>see who I am and how I work</b>."
+}

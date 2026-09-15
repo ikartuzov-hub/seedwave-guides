@@ -2,6 +2,15 @@
 
 > Guias claros e verificados sobre subsídios/apoios públicos e digitalização para cafés e restaurantes na Madeira, Portugal. Autor: Igor Kartuzov (SeedWave). Cada número é verificado com o texto do aviso e remete para a fonte primária.
 
+## Página inicial (vitrine)
+- [Apoios para empresas na Madeira — o que está aberto agora](https://apoios.seedwave.pt/) — PT
+- [Business grants in Madeira — what is open right now](https://apoios.seedwave.pt/en/) — EN
+- [Ayudas para empresas en Madeira — qué está abierto ahora](https://apoios.seedwave.pt/es/) — ES
+- [Субсидии для бизнеса на Мадейре — что открыто прямо сейчас](https://apoios.seedwave.pt/ru/) — RU
+- [Förderungen für Unternehmen auf Madeira — was gerade offen ist](https://apoios.seedwave.pt/de/) — DE
+- Cronologia datada das alterações: https://apoios.seedwave.pt/cronologia/
+- Canal de avisos (WhatsApp): https://whatsapp.com/channel/0029VbDHFF8K0IBiiqgMON2K
+
 ## Guias
 - [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://apoios.seedwave.pt/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN/ES/RU/DE — cada língua no seu próprio endereço:
   - [Que apoios existem para cafés e restaurantes na Madeira em 2026 — quanto e como candidatar?](https://apoios.seedwave.pt/restauracao-madeira/) — PT

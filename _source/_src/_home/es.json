@@ -1,0 +1,56 @@
+{
+  "head": {
+    "title": "Ayudas para empresas en Madeira 2026 — guías verificadas | SeedWave",
+    "description": "Qué ayudas públicas están abiertas para negocios en Madeira en 2026, para quién, cuánto y cómo solicitarlas. Cada cifra con su fuente primaria.",
+    "ogTitle": "Ayudas para empresas en Madeira — qué está abierto ahora",
+    "ogDescription": "Plazos, tasas y condiciones de las ayudas de Madeira, sin letra pequeña. Cada cifra sale de la convocatoria oficial."
+  },
+  "hero": {
+    "eyebrow": "SeedWave · Ayudas · Madeira",
+    "h1": "En Madeira circula dinero público. La mayoría de los negocios nunca va a pedirlo.",
+    "lead": "No por falta de derecho, sino porque nadie avisó a tiempo. Aquí está lo que está abierto, cuánto da, hasta cuándo y qué hace falta tener a mano. <b>Cada cifra enlaza con la fuente oficial.</b>"
+  },
+  "odo": {
+    "label": "Contratos públicos firmados en Madeira en 2026",
+    "sub": "{n} contratos · datos abiertos del IMPIC (Portal BASE) vía <a href=\"https://dados.gov.pt\" rel=\"nofollow\">dados.gov.pt</a>. Eso es gasto por contrato — los programas de apoyo a empresas son otra bolsa, y esa se pide por convocatoria."
+  },
+  "open": {
+    "now": "Abierto ahora",
+    "days": "quedan <span class=\"cnt days\" data-until=\"{until}\">·</span> días",
+    "cta": "Ver condiciones →"
+  },
+  "acts": {
+    "primary": "Qué está abierto ahora",
+    "share": "Enviar a un amigo",
+    "copied": "Enlace copiado ✓",
+    "shareText": "Ayudas para negocios en Madeira, explicadas con las fuentes oficiales:"
+  },
+  "news": {
+    "h2": "Qué ha cambiado en las ayudas",
+    "note": "Solo entra lo que ya tiene convocatoria o decreto publicado. Los anuncios sin texto oficial quedan fuera.",
+    "all": "Ver la cronología completa →",
+    "source": "Fuente",
+    "kind": {"open": "Apertura", "update": "Actualización", "close": "Cierre"}
+  },
+  "guides": {
+    "h2": "Guías",
+    "note": "Cada guía en cinco idiomas, cada idioma en su propia dirección.",
+    "items": [
+      {"slug": "restauracao-madeira",
+       "title": "Ayudas para cafés y restaurantes en Madeira 2026",
+       "blurb": "Qué programas existen (SIEED, digitalización, creación, contratación), cuánto dan y cómo solicitarlos."},
+      {"slug": "sieed-madeira",
+       "title": "SIEED — candidaturas hasta el 10 de octubre de 2026",
+       "blurb": "Eficiencia Energética 2030 (convocatoria M2030-2026-21): 50% para pymes, qué cubre en un café o restaurante y cómo llegar a tiempo."},
+      {"slug": "cafe-digital-madeira",
+       "title": "Digitalizar el café en Madeira 2026 — ¿hay ayuda abierta?",
+       "blurb": "Respuesta honesta: hoy no hay convocatoria abierta solo para digitalización. Qué se cerró y qué preparar ya para la próxima ventana."}
+    ]
+  },
+  "group": {
+    "h3": "Canal de avisos en WhatsApp",
+    "p": "Se abre una convocatoria, cambia un plazo, sale una tasa nueva — llega aquí en una línea. Canal, no grupo: el móvil no suena.",
+    "btn": "Seguir el canal"
+  },
+  "bridge": "Estas guías están escritas para hacerlo por su cuenta — para eso existen. Si prefiere que alguien lleve la candidatura de principio a fin, <b>vea quién soy y cómo trabajo</b>."
+}
