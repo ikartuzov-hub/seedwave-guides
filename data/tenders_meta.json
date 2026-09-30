@@ -1,31 +1,31 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
-  "total_records_pt": 162128,
-  "madeira_records": 3714,
-  "madeira_construction": 176,
-  "sum_madeira_eur": 629945746.65,
-  "sum_construction_eur": 113867850.05,
+  "total_records_pt": 180386,
+  "madeira_records": 4180,
+  "madeira_construction": 202,
+  "sum_madeira_eur": 671049003.63,
+  "sum_construction_eur": 125270231.33,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
-      2127
+      2351
     ],
     [
       "['Aquisição de serviços']",
-      1338
+      1541
     ],
     [
       "['Empreitadas de obras públicas']",
-      176
+      201
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
-      43
+      48
     ],
     [
       "['Locação de bens móveis']",
-      25
+      33
     ],
     [
       "['Concessão de serviços públicos']",
@@ -38,40 +38,44 @@
     [
       "['Outros']",
       1
+    ],
+    [
+      "['Concessão de obras públicas']",
+      1
     ]
   ],
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      1130
+      1288
     ],
     [
       "Consulta Prévia",
-      1034
+      1162
     ],
     [
       "Concurso público",
-      734
+      826
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
-      404
+      425
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 258.º)",
-      227
+      259
     ],
     [
       "Contratação excluída II",
-      159
-    ],
-    [
-      "Ajuste direto simplificado ao abrigo da Lei n.º 30/2021, de ",
-      10
+      189
     ],
     [
       "Concurso limitado por prévia qualificação",
-      9
+      12
+    ],
+    [
+      "Ajuste direto simplificado ao abrigo da Lei n.º 30/2021, de ",
+      12
     ],
     [
       "Consulta Prévia Simplificada",
@@ -104,20 +108,20 @@
       46950000.0
     ],
     [
-      "508677467 - ASCENDI - SERVIÇOS DE ASSESSORIA, GESTÃO E OPERAÇÃO, S.A.",
-      46950000.0
-    ],
-    [
       "518007030 - Horizon Infra Core, Unipessoal, Lda.",
       46950000.0
     ],
     [
+      "508677467 - ASCENDI - SERVIÇOS DE ASSESSORIA, GESTÃO E OPERAÇÃO, S.A.",
+      46950000.0
+    ],
+    [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      34237765.99
+      34288220.68
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      31156076.11
+      34133807.76
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
@@ -132,6 +136,10 @@
       16406838.0
     ],
     [
+      "511104642 - RIM - Engenharia e Construções, SA",
+      16051591.28
+    ],
+    [
       "503160300 - NOVA EXPRESSÃO- Planeamento de Meios e Publicidade , S.A.",
       12205200.0
     ],
@@ -140,20 +148,20 @@
       12205200.0
     ],
     [
-      "511104642 - RIM - Engenharia e Construções, SA",
-      11893591.28
-    ],
-    [
       "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
-      8714999.98
+      8745893.77
     ],
     [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      6748891.95
+      6820789.95
     ],
     [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
       5044999.98
+    ],
+    [
+      "515036773 - GRADUALPARALLEL - LDA",
+      4944950.0
     ],
     [
       "500031975 - Hitachi Energy Portugal, S.A.",
@@ -172,26 +180,22 @@
       3933707.0
     ],
     [
-      "515036773 - GRADUALPARALLEL - LDA",
-      3899950.0
+      "500221103 - Porto Editora, S.A.",
+      3896005.98
     ],
     [
       "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
       3750000.0
-    ],
-    [
-      "502926287 - WARTSILA PORTUGAL, S.A.",
-      3211000.0
     ]
   ],
   "top_construction_by_value": [
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      34138199.99
+      34188654.68
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      31137336.06
+      34115067.71
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
@@ -203,7 +207,7 @@
     ],
     [
       "511104642 - RIM - Engenharia e Construções, SA",
-      11893591.28
+      16051591.28
     ],
     [
       "500097488 - Teixeira Duarte - Engenharia e Construções, S.A.",
@@ -211,7 +215,7 @@
     ],
     [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      6551991.95
+      6598889.95
     ],
     [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
@@ -219,7 +223,7 @@
     ],
     [
       "515036773 - GRADUALPARALLEL - LDA",
-      3899950.0
+      4944950.0
     ],
     [
       "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
@@ -230,16 +234,16 @@
       2764000.0
     ],
     [
-      "515662712 - FLAMINGOBALCONY ENGENHARIA E CONSTRUÇÕES LDA",
-      2440144.0
-    ],
-    [
       "511237219 - Tecnaco - Técnicos de Construção, S.A.",
       2186369.67
     ],
     [
       "511143834 - FARROBO, Sociedade de Construções, S. A",
       2146036.08
+    ],
+    [
+      "515662712 - FLAMINGOBALCONY ENGENHARIA E CONSTRUÇÕES LDA",
+      1950350.0
     ],
     [
       "980098823 - DRAVO, S.A.",
@@ -251,7 +255,7 @@
     ],
     [
       "511123159 - Obracentimetro - Construção Civil, Lda.",
-      1309809.55
+      1359309.55
     ],
     [
       "511023928 - Saúl &amp; Filhos, Lda",
@@ -266,6 +270,14 @@
       1151947.5
     ],
     [
+      "511202377 - MANUEL CANADA CONSTRUÇÕES, LDA",
+      1095660.0
+    ],
+    [
+      "510758070 - AMYDRA CONSTRUÇÕES LDA.",
+      1072006.36
+    ],
+    [
       "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
       1028144.47
     ],
@@ -274,16 +286,8 @@
       958411.5
     ],
     [
-      "511031181 - Sales, Faria &amp; Andrade- Sociedade de Construções Ldª",
-      805588.45
-    ],
-    [
-      "511202377 - MANUEL CANADA CONSTRUÇÕES, LDA",
-      600660.0
-    ],
-    [
-      "511023723 - AFAVIAS - Engenharia e Construções, S. A.",
-      575000.0
+      "511024290 - Santos &amp; Ornelas, Lda",
+      872111.89
     ]
   ]
 }
