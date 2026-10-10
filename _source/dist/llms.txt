@@ -2,6 +2,15 @@
 
 > Guias claros e verificados sobre subsídios/apoios públicos e digitalização para cafés e restaurantes na Madeira, Portugal. Autor: Igor Kartuzov (SeedWave). Cada número é verificado com o texto do aviso e remete para a fonte primária.
 
+## Página inicial (vitrine)
+- [Apoios para empresas na Madeira — o que está aberto agora](https://apoios.seedwave.pt/) — PT
+- [Business grants in Madeira — what is open right now](https://apoios.seedwave.pt/en/) — EN
+- [Ayudas para empresas en Madeira — qué está abierto ahora](https://apoios.seedwave.pt/es/) — ES
+- [Субсидии для бизнеса на Мадейре — что открыто прямо сейчас](https://apoios.seedwave.pt/ru/) — RU
+- [Förderungen für Unternehmen auf Madeira — was gerade offen ist](https://apoios.seedwave.pt/de/) — DE
+- Cronologia datada das alterações: https://apoios.seedwave.pt/cronologia/
+- Canal de avisos (WhatsApp): https://whatsapp.com/channel/0029VbDHFF8K0IBiiqgMON2K
+
 ## Guias
 - [Apoios para cafés e restaurantes na Madeira 2026 — quanto e como candidatar](https://apoios.seedwave.pt/restauracao-madeira/): mapa dos apoios (SIEED, digitalização Portugal 2030, criação, contratação), taxas verificadas, regra de ouro e passos para candidatar. PT/EN/ES/RU/DE — cada língua no seu próprio endereço:
   - [Que apoios existem para cafés e restaurantes na Madeira em 2026 — quanto e como candidatar?](https://apoios.seedwave.pt/restauracao-madeira/) — PT
@@ -26,7 +35,8 @@
 
 ## Entidade
 - Igor Kartuzov — SeedWave — subsídios e automação para HoReCa em Portugal (Madeira).
-- Perfil e contacto: [Igor Kartuzov — apoios e automação para restauração na Madeira](https://apoios.seedwave.pt/igor/): consultor independente; 35 anos de operador; ajuda cafés e restaurantes a captar apoios (SIEED, Portugal 2030) e a automatizar. PT/EN/RU/ES/DE.
+- Perfil e contacto: [Igor Kartuzov — apoios para empresas na Madeira](https://apoios.seedwave.pt/igor/): consultor independente; 35 anos de operador; candidaturas a apoios para empresas na Madeira (equipamento, software e digitalização, obras, energia, contratação); pagamento depois de receber o apoio. PT/EN/RU/ES/DE.
+- Cafés e restaurantes: [Igor Kartuzov — apoios e automação para restauração na Madeira](https://apoios.seedwave.pt/igor/horeca/): página dedicada a HoReCa. PT/EN/RU/ES/DE.
 
 ## Mapa do site
 - Sitemap com alternativas de idioma: https://apoios.seedwave.pt/sitemap.xml
