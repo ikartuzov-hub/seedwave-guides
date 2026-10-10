@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url><loc>https://apoios.seedwave.pt/igor/</loc></url>
+  <url><loc>https://apoios.seedwave.pt/igor/horeca/</loc></url>
   <url>
     <loc>https://apoios.seedwave.pt/</loc>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://apoios.seedwave.pt/"/>

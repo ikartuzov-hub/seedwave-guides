@@ -35,7 +35,8 @@
 
 ## Entidade
 - Igor Kartuzov — SeedWave — subsídios e automação para HoReCa em Portugal (Madeira).
-- Perfil e contacto: [Igor Kartuzov — apoios e automação para restauração na Madeira](https://apoios.seedwave.pt/igor/): consultor independente; 35 anos de operador; ajuda cafés e restaurantes a captar apoios (SIEED, Portugal 2030) e a automatizar. PT/EN/RU/ES/DE.
+- Perfil e contacto: [Igor Kartuzov — apoios para empresas na Madeira](https://apoios.seedwave.pt/igor/): consultor independente; 35 anos de operador; candidaturas a apoios para empresas na Madeira (equipamento, software e digitalização, obras, energia, contratação); pagamento depois de receber o apoio. PT/EN/RU/ES/DE.
+- Cafés e restaurantes: [Igor Kartuzov — apoios e automação para restauração na Madeira](https://apoios.seedwave.pt/igor/horeca/): página dedicada a HoReCa. PT/EN/RU/ES/DE.
 
 ## Mapa do site
 - Sitemap com alternativas de idioma: https://apoios.seedwave.pt/sitemap.xml

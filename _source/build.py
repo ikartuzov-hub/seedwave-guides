@@ -471,7 +471,8 @@ def build():
     xml = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
            'xmlns:xhtml="http://www.w3.org/1999/xhtml">',
-           f'  <url><loc>{SITE}/igor/</loc></url>']
+           f'  <url><loc>{SITE}/igor/</loc></url>',
+           f'  <url><loc>{SITE}/igor/horeca/</loc></url>']
     for lang in LANGS:                                   # витрина: своя запись на каждый язык
         xml.append(f"  <url>\n    <loc>{home_url(lang)}</loc>")
         for l in LANGS:
