@@ -1,21 +1,23 @@
 {
  "_comment": "Хроника авизо. ПРАВИЛО: сюда попадает только Ур.1 — есть текст авизо или постановление JORAM. Анонсы без авизо (контур B сенсора) НЕ публикуются. Новая запись = один объект в начало массива. Движок не трогаем.",
  "_comment_open": "Открытые окна для витрины: программа, дедлайн (ISO с зоной), ссылка на гид. Закрылось — убрать запись.",
- "open": [
-  {
-   "program": "SIEED",
-   "deadline": "2026-10-10T17:00:00+01:00",
-   "link": "/sieed-madeira/",
-   "title": {
-    "pt": "SIEED — Eficiência Energética 2030 (M2030-2026-21)",
-    "en": "SIEED — Energy Efficiency 2030 (M2030-2026-21)",
-    "es": "SIEED — Eficiencia Energética 2030 (M2030-2026-21)",
-    "ru": "SIEED — Энергоэффективность 2030 (авизо M2030-2026-21)",
-    "de": "SIEED — Energieeffizienz 2030 (M2030-2026-21)"
-   }
-  }
- ],
+ "open": [],
  "entries": [
+  {
+   "date": "2026-10-10",
+   "program": "SIEED",
+   "kind": "close",
+   "source": "Madeira 2030",
+   "sourceUrl": "https://madeira.portugal2030.pt",
+   "link": "/sieed-madeira/",
+   "text": {
+    "pt": "Encerraram a 10 de outubro de 2026, às 17h00, as candidaturas ao aviso M2030-2026-21 (SIEED – Eficiência Energética 2030). Não foi publicada nova prorrogação.",
+    "en": "Applications to call M2030-2026-21 (SIEED – Energy Efficiency 2030) closed on 10 October 2026 at 17:00. No further extension was published.",
+    "es": "Las candidaturas a la convocatoria M2030-2026-21 (SIEED – Eficiencia Energética 2030) se cerraron el 10 de octubre de 2026, a las 17:00. No se publicó una nueva prórroga.",
+    "ru": "Приём заявок по авизо M2030-2026-21 (SIEED — Энергоэффективность 2030) закрыт 10 октября 2026 года в 17:00. Нового продления не опубликовано.",
+    "de": "Die Bewerbungen zum Aufruf M2030-2026-21 (SIEED – Energieeffizienz 2030) wurden am 10. Oktober 2026 um 17:00 Uhr geschlossen. Eine weitere Verlängerung wurde nicht veröffentlicht."
+   }
+  },
   {
    "date": "2026-09-14",
    "program": "MCT (ex-SSM)",
