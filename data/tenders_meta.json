@@ -1,42 +1,42 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
-  "total_records_pt": 180386,
-  "madeira_records": 4180,
-  "madeira_construction": 202,
-  "sum_madeira_eur": 671049003.63,
-  "sum_construction_eur": 125270231.33,
+  "total_records_pt": 189783,
+  "madeira_records": 4370,
+  "madeira_construction": 210,
+  "sum_madeira_eur": 685327882.84,
+  "sum_construction_eur": 128049602.85,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
-      2351
+      2446
     ],
     [
       "['Aquisição de serviços']",
-      1541
+      1618
     ],
     [
       "['Empreitadas de obras públicas']",
-      201
+      209
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
-      48
+      50
     ],
     [
       "['Locação de bens móveis']",
       33
     ],
     [
+      "['Outros']",
+      7
+    ],
+    [
       "['Concessão de serviços públicos']",
-      3
+      5
     ],
     [
       "['Aquisição de serviços', 'Locação de bens móveis']",
-      1
-    ],
-    [
-      "['Outros']",
       1
     ],
     [
@@ -47,27 +47,27 @@
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      1288
+      1347
     ],
     [
       "Consulta Prévia",
-      1162
+      1234
     ],
     [
       "Concurso público",
-      826
+      859
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
-      425
+      434
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 258.º)",
-      259
+      270
     ],
     [
       "Contratação excluída II",
-      189
+      194
     ],
     [
       "Concurso limitado por prévia qualificação",
@@ -82,8 +82,8 @@
       4
     ],
     [
-      "Concurso público simplificado",
-      1
+      "Setores especiais – isenção parte II",
+      2
     ]
   ],
   "top_contractors_by_value": [
@@ -117,11 +117,11 @@
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      34288220.68
+      34681743.18
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      34133807.76
+      34328442.11
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
@@ -164,6 +164,10 @@
       4944950.0
     ],
     [
+      "507979168 - PAYPAYUE - Instituição de Pagamento, Unipessoal Lda",
+      4508348.0
+    ],
+    [
       "500031975 - Hitachi Energy Portugal, S.A.",
       4485147.94
     ],
@@ -181,21 +185,17 @@
     ],
     [
       "500221103 - Porto Editora, S.A.",
-      3896005.98
-    ],
-    [
-      "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
-      3750000.0
+      3910216.47
     ]
   ],
   "top_construction_by_value": [
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      34188654.68
+      34553654.68
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
-      34115067.71
+      34309702.06
     ],
     [
       "511143834 - Farrobo, Soc. de Construções, S.A.",
@@ -246,8 +246,16 @@
       1950350.0
     ],
     [
+      "511265794 - Gomes &amp; Corte Construções Unipessoal, Lda",
+      1688738.0
+    ],
+    [
       "980098823 - DRAVO, S.A.",
       1676000.0
+    ],
+    [
+      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
+      1545591.97
     ],
     [
       "515662712 - Flamingobalcony Engenharia e Construções, Lda",
@@ -278,16 +286,8 @@
       1072006.36
     ],
     [
-      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
-      1028144.47
-    ],
-    [
       "517322846 - TREEFOR Engenharia Lda.",
       958411.5
-    ],
-    [
-      "511024290 - Santos &amp; Ornelas, Lda",
-      872111.89
     ]
   ]
 }
