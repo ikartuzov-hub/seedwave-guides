@@ -1,80 +1,80 @@
 {
   "source": "https://dados.gov.pt/api/1/datasets/r/dc5d0543-6e01-4f7e-8709-bf3815812a08",
   "license": "Domínio Público (dados.gov.pt / IMPIC)",
-  "total_records_pt": 189783,
-  "madeira_records": 4370,
-  "madeira_construction": 210,
-  "sum_madeira_eur": 685327882.84,
-  "sum_construction_eur": 128049602.85,
+  "total_records_pt": 204712,
+  "madeira_records": 4756,
+  "madeira_construction": 230,
+  "sum_madeira_eur": 735800106.23,
+  "sum_construction_eur": 149943045.69,
   "by_tipo_contrato": [
     [
       "['Aquisição de bens móveis']",
-      2446
+      2669
     ],
     [
       "['Aquisição de serviços']",
-      1618
+      1750
     ],
     [
       "['Empreitadas de obras públicas']",
-      209
+      228
     ],
     [
       "['Aquisição de bens móveis', 'Aquisição de serviços']",
-      50
+      56
     ],
     [
       "['Locação de bens móveis']",
-      33
+      37
     ],
     [
       "['Outros']",
-      7
+      8
     ],
     [
       "['Concessão de serviços públicos']",
       5
     ],
     [
-      "['Aquisição de serviços', 'Locação de bens móveis']",
-      1
+      "['Concessão de obras públicas']",
+      2
     ],
     [
-      "['Concessão de obras públicas']",
+      "['Aquisição de serviços', 'Locação de bens móveis']",
       1
     ]
   ],
   "by_tipo_procedimento": [
     [
       "Ajuste Direto Regime Geral",
-      1347
+      1483
     ],
     [
       "Consulta Prévia",
-      1234
+      1347
     ],
     [
       "Concurso público",
-      859
+      962
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 259.º)",
-      434
+      450
     ],
     [
       "Ao abrigo de acordo-quadro (art.º 258.º)",
-      270
+      279
     ],
     [
       "Contratação excluída II",
-      194
-    ],
-    [
-      "Concurso limitado por prévia qualificação",
-      12
+      202
     ],
     [
       "Ajuste direto simplificado ao abrigo da Lei n.º 30/2021, de ",
+      13
+    ],
+    [
+      "Concurso limitado por prévia qualificação",
       12
     ],
     [
@@ -117,7 +117,7 @@
     ],
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      34681743.18
+      37641743.18
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
@@ -130,6 +130,10 @@
     [
       "511283806 - SOCICORREIA - ENGENHARIA, S.A.",
       17582999.96
+    ],
+    [
+      "511023928 - Saúl &amp; Filhos, Lda",
+      17167192.66
     ],
     [
       "500246963 - Repsol Portuguesa Ldª",
@@ -152,8 +156,12 @@
       8745893.77
     ],
     [
+      "511228066 - SERLIMAWASH LAVANDARIA INDUSTRIAL, S.A.",
+      8187254.02
+    ],
+    [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      6820789.95
+      6954738.95
     ],
     [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
@@ -161,7 +169,11 @@
     ],
     [
       "515036773 - GRADUALPARALLEL - LDA",
-      4944950.0
+      4963035.1
+    ],
+    [
+      "500221103 - Porto Editora, S.A.",
+      4640538.77
     ],
     [
       "507979168 - PAYPAYUE - Instituição de Pagamento, Unipessoal Lda",
@@ -174,24 +186,12 @@
     [
       "501721037 - IMI - Imagens Médicas Integradas, S.A.",
       4104930.0
-    ],
-    [
-      "511224826 -  OPERTRANS – DISTRIBUIÇÃO E LOGÍSTICA, LDA",
-      3968857.0
-    ],
-    [
-      "511011911 - GSLINES - Transportes Marítimos Lda.",
-      3933707.0
-    ],
-    [
-      "500221103 - Porto Editora, S.A.",
-      3910216.47
     ]
   ],
   "top_construction_by_value": [
     [
       "511099177 - Tecnovia Madeira, Sociedade de Empreitadas SA",
-      34553654.68
+      37513654.68
     ],
     [
       "511023723 - AFAVIAS - Engenharia e Construções, S.A.",
@@ -206,6 +206,10 @@
       17582999.96
     ],
     [
+      "511023928 - Saúl &amp; Filhos, Lda",
+      17118792.11
+    ],
+    [
       "511104642 - RIM - Engenharia e Construções, SA",
       16051591.28
     ],
@@ -215,7 +219,7 @@
     ],
     [
       "511035896 - JOSÉ AVELINO PINTO, CONSTRUÇÃO E ENGENHARIA, S.A.",
-      6598889.95
+      6732838.95
     ],
     [
       "517646684 - Teixeira Duarte - Madeira, S.A.",
@@ -223,7 +227,7 @@
     ],
     [
       "515036773 - GRADUALPARALLEL - LDA",
-      4944950.0
+      4963035.1
     ],
     [
       "511023723 - \t AFAVIAS - Engenharia e Construções, S.A",
@@ -231,11 +235,11 @@
     ],
     [
       "511099177 - TECNOVIA - MADEIRA, SOCIEDADE DE EMPREITADAS, S.A.",
-      2764000.0
+      3391000.0
     ],
     [
       "511237219 - Tecnaco - Técnicos de Construção, S.A.",
-      2186369.67
+      3146582.87
     ],
     [
       "511143834 - FARROBO, Sociedade de Construções, S. A",
@@ -246,16 +250,16 @@
       1950350.0
     ],
     [
+      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
+      1873038.97
+    ],
+    [
       "511265794 - Gomes &amp; Corte Construções Unipessoal, Lda",
       1688738.0
     ],
     [
       "980098823 - DRAVO, S.A.",
       1676000.0
-    ],
-    [
-      "511270810 - Ideiaporta-Construção Civil e Obras Públicas, Lda",
-      1545591.97
     ],
     [
       "515662712 - Flamingobalcony Engenharia e Construções, Lda",
@@ -266,8 +270,8 @@
       1359309.55
     ],
     [
-      "511023928 - Saúl &amp; Filhos, Lda",
-      1229212.78
+      "510758070 - AMYDRA CONSTRUÇÕES LDA.",
+      1280847.37
     ],
     [
       "511011202 - ERUMAD - Engenharia e Reabilitação Urbana, Lda",
@@ -280,10 +284,6 @@
     [
       "511202377 - MANUEL CANADA CONSTRUÇÕES, LDA",
       1095660.0
-    ],
-    [
-      "510758070 - AMYDRA CONSTRUÇÕES LDA.",
-      1072006.36
     ],
     [
       "517322846 - TREEFOR Engenharia Lda.",
